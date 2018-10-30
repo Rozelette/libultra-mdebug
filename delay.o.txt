@@ -1,0 +1,121 @@
+SymbolicHeader(magic=28681, vstamp=787, ilineMax=12, cbLine=12, cbLineOffset=440, idnMax=12, cbDnOffset=1864, ipdMax=1, cbPdOffset=452, isymMax=16, cbSymOffset=504, ioptMax=0, cbOptOffset=344, iauxMax=4, cbAuxOffset=696, issMax=636, cbSsOffset=712, issExtMax=36, cbSsExtOffset=1348, ifdMax=6, cbFdOffset=1384, crfd=0, cbRfdOffset=344, iextMax=3, cbExtOffset=1816)
+Using OFFSET of 0
+FileDescriptor(adr=0, rss=1, issBase=0, cbSs=131, isymBase=0, csym=6, ilineBase=0, cline=12, ioptBase=0, copt=0, ipdFirst=0, cpd=1, iauxBase=0, caux=4, rfdBase=0, crfd=0, XXX_bitfield=419430400, cbLineOffset=0, cbLine=9)
+    name:../log/delay.s
+    procedures:
+        ProcedureDescriptor(adr=0, isym=1, iline=0, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=7, lnHigh=21, cbLineOffset=0)
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=6)
+            name:../log/delay.s
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=97, value=0, st=6, sc=1, index=2)
+            name:osDelay
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=5), rndx=RelativeSymbol(rfd=0, index=5), dnLow=5, dnHigh=5, isym=5, iss=5, width=5, count=5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=105, value=20, st=5, sc=1, index=1048575)
+            name:1$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=118, value=40, st=5, sc=1, index=1048575)
+            name:2$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=97, value=48, st=8, sc=1, index=1)
+            name:osDelay
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../log/delay.s
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../log/delay.s
+
+nil osDelay();
+//Label: 1$0000000000 @ 20;
+//Label: 2$0000000000 @ 40;
+
+// end file ../log/delay.s
+FileDescriptor(adr=0, rss=1, issBase=131, cbSs=93, isymBase=6, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/asm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/asm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/asm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/asm.h
+
+// end file /f/release1/usr/include/asm.h
+FileDescriptor(adr=0, rss=1, issBase=224, cbSs=102, isymBase=8, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/asm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/asm.h
+
+// end file /f/release1/usr/include/sys/asm.h
+FileDescriptor(adr=0, rss=1, issBase=326, cbSs=101, isymBase=10, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=427, cbSs=107, isymBase=12, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/regdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/regdef.h
+
+// end file /f/release1/usr/include/sys/regdef.h
+FileDescriptor(adr=0, rss=1, issBase=534, cbSs=101, isymBase=14, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h

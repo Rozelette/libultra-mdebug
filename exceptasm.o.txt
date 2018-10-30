@@ -1,0 +1,723 @@
+SymbolicHeader(magic=28681, vstamp=787, ilineMax=580, cbLine=444, cbLineOffset=5120, idnMax=95, cbDnOffset=14128, ipdMax=9, cbPdOffset=5564, isymMax=108, cbSymOffset=6032, ioptMax=0, cbOptOffset=5024, iauxMax=36, cbAuxOffset=7328, issMax=3176, cbSsOffset=7472, issExtMax=736, cbSsExtOffset=10648, ifdMax=25, cbFdOffset=11384, crfd=0, cbRfdOffset=5024, iextMax=59, cbExtOffset=13184)
+Using OFFSET of 0
+FileDescriptor(adr=0, rss=1, issBase=0, cbSs=683, isymBase=0, csym=60, ilineBase=0, cline=580, ioptBase=0, copt=0, ipdFirst=0, cpd=9, iauxBase=0, caux=36, rfdBase=0, crfd=0, XXX_bitfield=419430400, cbLineOffset=0, cbLine=444)
+    name:../os/exceptasm.s
+    procedures:
+        ProcedureDescriptor(adr=0, isym=5, iline=0, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=111, lnHigh=114, cbLineOffset=0)
+        ProcedureDescriptor(adr=16, isym=7, iline=4, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=117, lnHigh=587, cbLineOffset=3)
+        ProcedureDescriptor(adr=1476, isym=37, iline=369, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=597, lnHigh=665, cbLineOffset=275)
+        ProcedureDescriptor(adr=1672, isym=40, iline=418, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=676, lnHigh=695, cbLineOffset=304)
+        ProcedureDescriptor(adr=1728, isym=42, iline=432, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=707, lnHigh=770, cbLineOffset=316)
+        ProcedureDescriptor(adr=1884, isym=46, iline=471, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=801, lnHigh=817, cbLineOffset=350)
+        ProcedureDescriptor(adr=1960, isym=50, iline=490, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=840, lnHigh=847, cbLineOffset=364)
+        ProcedureDescriptor(adr=1984, isym=52, iline=496, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=857, lnHigh=956, cbLineOffset=369)
+        ProcedureDescriptor(adr=2308, isym=57, iline=577, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=965, lnHigh=967, cbLineOffset=442)
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=60)
+            name:../os/exceptasm.s
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=105, value=0, st=2, sc=15, index=1048575)
+            name:__osIntOffTable
+            type:stStatic(2)
+            storage class:scRData(15)
+        Symbol(iss=121, value=32, st=2, sc=15, index=1048575)
+            name:__osIntTable
+            type:stStatic(2)
+            storage class:scRData(15)
+        Symbol(iss=134, value=68, st=2, sc=15, index=1048575)
+            name:__osIsRdbWrite
+            type:stStatic(2)
+            storage class:scRData(15)
+        Symbol(iss=149, value=72, st=2, sc=15, index=1048575)
+            name:__osIsRdbRead
+            type:stStatic(2)
+            storage class:scRData(15)
+        Symbol(iss=163, value=0, st=6, sc=1, index=2)
+            name:__osExceptionPreamble
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=7), rndx=RelativeSymbol(rfd=0, index=7), dnLow=7, dnHigh=7, isym=7, iss=7, width=7, count=7)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=163, value=16, st=8, sc=1, index=5)
+            name:__osExceptionPreamble
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=185, value=16, st=6, sc=1, index=6)
+            name:__osException
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=2, tq3=5), rndx=RelativeSymbol(rfd=0, index=37), dnLow=37, dnHigh=37, isym=37, iss=37, width=37, count=37)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=199, value=120, st=5, sc=1, index=1048575)
+            name:1$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=212, value=152, st=5, sc=1, index=1048575)
+            name:2$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=225, value=220, st=5, sc=1, index=1048575)
+            name:3$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=238, value=448, st=5, sc=1, index=1048575)
+            name:1$0000000001
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=251, value=528, st=5, sc=1, index=1048575)
+            name:1$0000000002
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=264, value=584, st=5, sc=1, index=1048575)
+            name:2$0000000001
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=277, value=612, st=5, sc=1, index=1048575)
+            name:3$0000000001
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=290, value=652, st=5, sc=1, index=1048575)
+            name:handle_interrupt
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=307, value=656, st=5, sc=1, index=1048575)
+            name:next_interrupt
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=322, value=680, st=5, sc=1, index=1048575)
+            name:1$0000000003
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=335, value=712, st=5, sc=1, index=1048575)
+            name:counter
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=343, value=752, st=5, sc=1, index=1048575)
+            name:cart
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=348, value=780, st=5, sc=1, index=1048575)
+            name:rcp
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=352, value=868, st=5, sc=1, index=1048575)
+            name:sp_other_break
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=367, value=888, st=5, sc=1, index=1048575)
+            name:vi
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=370, value=932, st=5, sc=1, index=1048575)
+            name:ai
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=373, value=980, st=5, sc=1, index=1048575)
+            name:si
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=376, value=1024, st=5, sc=1, index=1048575)
+            name:pi
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=379, value=1072, st=5, sc=1, index=1048575)
+            name:dp
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=382, value=1112, st=5, sc=1, index=1048575)
+            name:NoMoreRcpInts
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=396, value=1128, st=5, sc=1, index=1048575)
+            name:prenmi
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=403, value=1180, st=5, sc=1, index=1048575)
+            name:firstnmi
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=412, value=1240, st=5, sc=1, index=1048575)
+            name:sw2
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=416, value=1280, st=5, sc=1, index=1048575)
+            name:sw1
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=420, value=1320, st=5, sc=1, index=1048575)
+            name:handle_break
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=433, value=1348, st=5, sc=1, index=1048575)
+            name:redispatch
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=444, value=1404, st=5, sc=1, index=1048575)
+            name:enqueueRunning
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=459, value=1432, st=5, sc=1, index=1048575)
+            name:panic
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=185, value=1460, st=8, sc=1, index=7)
+            name:__osException
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=465, value=1476, st=6, sc=1, index=10)
+            name:send_mesg
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=2, tq3=8), rndx=RelativeSymbol(rfd=0, index=40), dnLow=40, dnHigh=40, isym=40, iss=40, width=40, count=40)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=475, value=1664, st=5, sc=1, index=1048575)
+            name:send_done
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=465, value=196, st=8, sc=1, index=37)
+            name:send_mesg
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=485, value=1672, st=6, sc=1, index=14)
+            name:handle_CpU
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=2, tq3=10), rndx=RelativeSymbol(rfd=0, index=42), dnLow=42, dnHigh=42, isym=42, iss=42, width=42, count=42)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=485, value=56, st=8, sc=1, index=40)
+            name:handle_CpU
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=496, value=1728, st=6, sc=1, index=18)
+            name:__osEnqueueAndYield
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=2, tq3=14), rndx=RelativeSymbol(rfd=0, index=46), dnLow=46, dnHigh=46, isym=46, iss=46, width=46, count=46)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=516, value=1848, st=5, sc=1, index=1048575)
+            name:1$0000000004
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=529, value=1876, st=5, sc=1, index=1048575)
+            name:noEnqueue
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=496, value=156, st=8, sc=1, index=42)
+            name:__osEnqueueAndYield
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=539, value=1884, st=6, sc=1, index=22)
+            name:__osEnqueueThread
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=3, tq3=2), rndx=RelativeSymbol(rfd=0, index=50), dnLow=50, dnHigh=50, isym=50, iss=50, width=50, count=50)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=557, value=1912, st=5, sc=1, index=1048575)
+            name:1$0000000005
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=570, value=1936, st=5, sc=1, index=1048575)
+            name:2$0000000002
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=539, value=76, st=8, sc=1, index=46)
+            name:__osEnqueueThread
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=583, value=1960, st=6, sc=1, index=26)
+            name:__osPopThread
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=3, tq3=4), rndx=RelativeSymbol(rfd=0, index=52), dnLow=52, dnHigh=52, isym=52, iss=52, width=52, count=52)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=583, value=24, st=8, sc=1, index=50)
+            name:__osPopThread
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=597, value=1984, st=6, sc=1, index=30)
+            name:__osDispatchThread
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=3, tq3=9), rndx=RelativeSymbol(rfd=0, index=57), dnLow=57, dnHigh=57, isym=57, iss=57, width=57, count=57)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=616, value=1984, st=5, sc=1, index=1048575)
+            name:1$0000000006
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=629, value=2020, st=5, sc=1, index=1048575)
+            name:__osDispatchThreadSave
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=652, value=2252, st=5, sc=1, index=1048575)
+            name:1$0000000007
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=597, value=324, st=8, sc=1, index=52)
+            name:__osDispatchThread
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=665, value=2308, st=6, sc=1, index=34)
+            name:__osCleanupThread
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=3, tq3=11), rndx=RelativeSymbol(rfd=0, index=59), dnLow=59, dnHigh=59, isym=59, iss=59, width=59, count=59)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=665, value=12, st=8, sc=1, index=57)
+            name:__osCleanupThread
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../os/exceptasm.s
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../os/exceptasm.s
+
+// static __osIntOffTable; - Load time only
+
+// static __osIntTable; - Load time only
+
+// static __osIsRdbWrite; - Load time only
+
+// static __osIsRdbRead; - Load time only
+
+nil __osExceptionPreamble();
+
+nil __osException();
+//Label: 1$0000000000 @ 120;
+//Label: 2$0000000000 @ 152;
+//Label: 3$0000000000 @ 220;
+//Label: 1$0000000001 @ 448;
+//Label: 1$0000000002 @ 528;
+//Label: 2$0000000001 @ 584;
+//Label: 3$0000000001 @ 612;
+//Label: handle_interrupt @ 652;
+//Label: next_interrupt @ 656;
+//Label: 1$0000000003 @ 680;
+//Label: counter @ 712;
+//Label: cart @ 752;
+//Label: rcp @ 780;
+//Label: sp_other_break @ 868;
+//Label: vi @ 888;
+//Label: ai @ 932;
+//Label: si @ 980;
+//Label: pi @ 1024;
+//Label: dp @ 1072;
+//Label: NoMoreRcpInts @ 1112;
+//Label: prenmi @ 1128;
+//Label: firstnmi @ 1180;
+//Label: sw2 @ 1240;
+//Label: sw1 @ 1280;
+//Label: handle_break @ 1320;
+//Label: redispatch @ 1348;
+//Label: enqueueRunning @ 1404;
+//Label: panic @ 1432;
+
+nil send_mesg();
+//Label: send_done @ 1664;
+
+nil handle_CpU();
+
+nil __osEnqueueAndYield();
+//Label: 1$0000000004 @ 1848;
+//Label: noEnqueue @ 1876;
+
+nil __osEnqueueThread();
+//Label: 1$0000000005 @ 1912;
+//Label: 2$0000000002 @ 1936;
+
+nil __osPopThread();
+
+nil __osDispatchThread();
+//Label: 1$0000000006 @ 1984;
+//Label: __osDispatchThreadSave @ 2020;
+//Label: 1$0000000007 @ 2252;
+
+nil __osCleanupThread();
+
+// end file ../os/exceptasm.s
+FileDescriptor(adr=0, rss=1, issBase=683, cbSs=93, isymBase=60, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/asm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/asm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/asm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/asm.h
+
+// end file /f/release1/usr/include/asm.h
+FileDescriptor(adr=0, rss=1, issBase=776, cbSs=102, isymBase=62, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/asm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/asm.h
+
+// end file /f/release1/usr/include/sys/asm.h
+FileDescriptor(adr=0, rss=1, issBase=878, cbSs=101, isymBase=64, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=979, cbSs=99, isymBase=66, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/regdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/regdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/regdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/regdef.h
+
+// end file /f/release1/usr/include/regdef.h
+FileDescriptor(adr=0, rss=1, issBase=1078, cbSs=107, isymBase=68, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/regdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/regdef.h
+
+// end file /f/release1/usr/include/sys/regdef.h
+FileDescriptor(adr=0, rss=1, issBase=1185, cbSs=101, isymBase=70, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=1286, cbSs=111, isymBase=72, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/fpregdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/fpregdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/fpregdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/fpregdef.h
+
+// end file /f/release1/usr/include/sys/fpregdef.h
+FileDescriptor(adr=0, rss=1, issBase=1397, cbSs=101, isymBase=74, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=1498, cbSs=113, isymBase=76, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:../../include/R4300.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:../../include/R4300.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../../include/R4300.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../../include/R4300.h
+
+// end file ../../include/R4300.h
+FileDescriptor(adr=0, rss=1, issBase=1611, cbSs=113, isymBase=78, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/PR/ultratypes.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/PR/ultratypes.h
+
+// end file /f/release1/usr/include/PR/ultratypes.h
+FileDescriptor(adr=0, rss=1, issBase=1724, cbSs=107, isymBase=80, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:../../include/os.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:../../include/os.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../../include/os.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../../include/os.h
+
+// end file ../../include/os.h
+FileDescriptor(adr=0, rss=1, issBase=1831, cbSs=113, isymBase=82, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/PR/ultratypes.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/PR/ultratypes.h
+
+// end file /f/release1/usr/include/PR/ultratypes.h
+FileDescriptor(adr=0, rss=1, issBase=1944, cbSs=109, isymBase=84, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:../../include/rcp.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:../../include/rcp.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../../include/rcp.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../../include/rcp.h
+
+// end file ../../include/rcp.h
+FileDescriptor(adr=0, rss=1, issBase=2053, cbSs=104, isymBase=86, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/PR/R4300.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/PR/R4300.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/PR/R4300.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/PR/R4300.h
+
+// end file /f/release1/usr/include/PR/R4300.h
+FileDescriptor(adr=0, rss=1, issBase=2157, cbSs=113, isymBase=88, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/PR/ultratypes.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/PR/ultratypes.h
+
+// end file /f/release1/usr/include/PR/ultratypes.h
+FileDescriptor(adr=0, rss=1, issBase=2270, cbSs=95, isymBase=90, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/task.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/task.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/task.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/task.h
+
+// end file /f/release1/usr/include/task.h
+FileDescriptor(adr=0, rss=1, issBase=2365, cbSs=99, isymBase=92, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/ulocks.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/ulocks.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/ulocks.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/ulocks.h
+
+// end file /f/release1/usr/include/ulocks.h
+FileDescriptor(adr=0, rss=1, issBase=2464, cbSs=99, isymBase=94, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/limits.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/limits.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/limits.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/limits.h
+
+// end file /f/release1/usr/include/limits.h
+FileDescriptor(adr=0, rss=1, issBase=2563, cbSs=101, isymBase=96, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=2664, cbSs=99, isymBase=98, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/ulocks.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/ulocks.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/ulocks.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/ulocks.h
+
+// end file /f/release1/usr/include/ulocks.h
+FileDescriptor(adr=0, rss=1, issBase=2763, cbSs=105, isymBase=100, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/prctl.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/prctl.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/prctl.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/prctl.h
+
+// end file /f/release1/usr/include/sys/prctl.h
+FileDescriptor(adr=0, rss=1, issBase=2868, cbSs=108, isymBase=102, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:../../include/rdb.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:../../include/rdb.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../../include/rdb.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../../include/rdb.h
+
+// end file ../../include/rdb.h
+FileDescriptor(adr=0, rss=1, issBase=2976, cbSs=104, isymBase=104, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:../os/exceptasm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:../os/exceptasm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../os/exceptasm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../os/exceptasm.h
+
+// end file ../os/exceptasm.h
+FileDescriptor(adr=0, rss=1, issBase=3080, cbSs=96, isymBase=106, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=9, cpd=0, iauxBase=36, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:./threadasm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:./threadasm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:./threadasm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ./threadasm.h
+
+// end file ./threadasm.h

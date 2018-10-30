@@ -1,0 +1,283 @@
+SymbolicHeader(magic=28681, vstamp=787, ilineMax=74, cbLine=56, cbLineOffset=1048, idnMax=30, cbDnOffset=4536, ipdMax=1, cbPdOffset=1104, isymMax=40, cbSymOffset=1156, ioptMax=0, cbOptOffset=952, iauxMax=4, cbAuxOffset=1636, issMax=1544, cbSsOffset=1652, issExtMax=180, cbSsExtOffset=3196, ifdMax=13, cbFdOffset=3376, crfd=0, cbRfdOffset=952, iextMax=14, cbExtOffset=4312)
+Using OFFSET of 0
+FileDescriptor(adr=0, rss=1, issBase=0, cbSs=266, isymBase=0, csym=16, ilineBase=0, cline=74, ioptBase=0, copt=0, ipdFirst=0, cpd=1, iauxBase=0, caux=4, rfdBase=0, crfd=0, XXX_bitfield=419430400, cbLineOffset=0, cbLine=56)
+    name:../os/maptlb.s
+    procedures:
+        ProcedureDescriptor(adr=0, isym=1, iline=0, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=22, lnHigh=99, cbLineOffset=0)
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=16)
+            name:../os/maptlb.s
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=98, value=0, st=6, sc=1, index=2)
+            name:osMapTLB
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=15), rndx=RelativeSymbol(rfd=0, index=15), dnLow=15, dnHigh=15, isym=15, iss=15, width=15, count=15)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=107, value=16, st=5, sc=1, index=1048575)
+            name:1$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=120, value=32, st=5, sc=1, index=1048575)
+            name:2$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=133, value=52, st=5, sc=1, index=1048575)
+            name:3$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=146, value=80, st=5, sc=1, index=1048575)
+            name:4$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=159, value=96, st=5, sc=1, index=1048575)
+            name:5$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=172, value=116, st=5, sc=1, index=1048575)
+            name:6$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=185, value=156, st=5, sc=1, index=1048575)
+            name:7$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=198, value=160, st=5, sc=1, index=1048575)
+            name:8$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=211, value=196, st=5, sc=1, index=1048575)
+            name:9$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=224, value=200, st=5, sc=1, index=1048575)
+            name:10$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=238, value=236, st=5, sc=1, index=1048575)
+            name:11$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=252, value=260, st=5, sc=1, index=1048575)
+            name:12$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=98, value=296, st=8, sc=1, index=1)
+            name:osMapTLB
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../os/maptlb.s
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../os/maptlb.s
+
+nil osMapTLB();
+//Label: 1$0000000000 @ 16;
+//Label: 2$0000000000 @ 32;
+//Label: 3$0000000000 @ 52;
+//Label: 4$0000000000 @ 80;
+//Label: 5$0000000000 @ 96;
+//Label: 6$0000000000 @ 116;
+//Label: 7$0000000000 @ 156;
+//Label: 8$0000000000 @ 160;
+//Label: 9$0000000000 @ 196;
+//Label: 10$0000000000 @ 200;
+//Label: 11$0000000000 @ 236;
+//Label: 12$0000000000 @ 260;
+
+// end file ../os/maptlb.s
+FileDescriptor(adr=0, rss=1, issBase=266, cbSs=93, isymBase=16, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/asm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/asm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/asm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/asm.h
+
+// end file /f/release1/usr/include/asm.h
+FileDescriptor(adr=0, rss=1, issBase=359, cbSs=102, isymBase=18, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/asm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/asm.h
+
+// end file /f/release1/usr/include/sys/asm.h
+FileDescriptor(adr=0, rss=1, issBase=461, cbSs=101, isymBase=20, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=562, cbSs=99, isymBase=22, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/regdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/regdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/regdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/regdef.h
+
+// end file /f/release1/usr/include/regdef.h
+FileDescriptor(adr=0, rss=1, issBase=661, cbSs=107, isymBase=24, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/regdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/regdef.h
+
+// end file /f/release1/usr/include/sys/regdef.h
+FileDescriptor(adr=0, rss=1, issBase=768, cbSs=101, isymBase=26, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=869, cbSs=111, isymBase=28, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/fpregdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/fpregdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/fpregdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/fpregdef.h
+
+// end file /f/release1/usr/include/sys/fpregdef.h
+FileDescriptor(adr=0, rss=1, issBase=980, cbSs=101, isymBase=30, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=1081, cbSs=113, isymBase=32, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:../../include/R4300.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:../../include/R4300.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../../include/R4300.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../../include/R4300.h
+
+// end file ../../include/R4300.h
+FileDescriptor(adr=0, rss=1, issBase=1194, cbSs=113, isymBase=34, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/PR/ultratypes.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/PR/ultratypes.h
+
+// end file /f/release1/usr/include/PR/ultratypes.h
+FileDescriptor(adr=0, rss=1, issBase=1307, cbSs=122, isymBase=36, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:../../include/ultraerror.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:../../include/ultraerror.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../../include/ultraerror.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../../include/ultraerror.h
+
+// end file ../../include/ultraerror.h
+FileDescriptor(adr=0, rss=1, issBase=1429, cbSs=113, isymBase=38, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/PR/ultratypes.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/PR/ultratypes.h
+
+// end file /f/release1/usr/include/PR/ultratypes.h

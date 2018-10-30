@@ -1,0 +1,150 @@
+SymbolicHeader(magic=28681, vstamp=787, ilineMax=87, cbLine=64, cbLineOffset=984, idnMax=20, cbDnOffset=2708, ipdMax=1, cbPdOffset=1048, isymMax=23, cbSymOffset=1100, ioptMax=0, cbOptOffset=888, iauxMax=4, cbAuxOffset=1376, issMax=636, cbSsOffset=1392, issExtMax=128, cbSsExtOffset=2028, ifdMax=5, cbFdOffset=2156, crfd=0, cbRfdOffset=888, iextMax=12, cbExtOffset=2516)
+Using OFFSET of 0
+FileDescriptor(adr=0, rss=1, issBase=0, cbSs=223, isymBase=0, csym=15, ilineBase=0, cline=87, ioptBase=0, copt=0, ipdFirst=0, cpd=1, iauxBase=0, caux=4, rfdBase=0, crfd=0, XXX_bitfield=419430400, cbLineOffset=0, cbLine=63)
+    name:../libc/bcmp.s
+    procedures:
+        ProcedureDescriptor(adr=0, isym=1, iline=0, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=43, lnHigh=149, cbLineOffset=0)
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=15)
+            name:../libc/bcmp.s
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=98, value=0, st=6, sc=1, index=2)
+            name:memcmp
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=14), rndx=RelativeSymbol(rfd=0, index=14), dnLow=14, dnHigh=14, isym=14, iss=14, width=14, count=14)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=105, value=76, st=5, sc=1, index=1048575)
+            name:wordcmp
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=113, value=100, st=5, sc=1, index=1048575)
+            name:1$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=126, value=140, st=5, sc=1, index=1048575)
+            name:unalgncmp
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=136, value=164, st=5, sc=1, index=1048575)
+            name:1$0000000001
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=149, value=196, st=5, sc=1, index=1048575)
+            name:partaligncmp
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=162, value=220, st=5, sc=1, index=1048575)
+            name:1$0000000002
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=175, value=256, st=5, sc=1, index=1048575)
+            name:bytecmp
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=183, value=268, st=5, sc=1, index=1048575)
+            name:1$0000000003
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=196, value=300, st=5, sc=1, index=1048575)
+            name:cmpdone
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=204, value=312, st=5, sc=1, index=1048575)
+            name:cmpne
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=210, value=336, st=5, sc=1, index=1048575)
+            name:9$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=98, value=348, st=8, sc=1, index=1)
+            name:memcmp
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../libc/bcmp.s
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../libc/bcmp.s
+
+nil memcmp();
+//Label: wordcmp @ 76;
+//Label: 1$0000000000 @ 100;
+//Label: unalgncmp @ 140;
+//Label: 1$0000000001 @ 164;
+//Label: partaligncmp @ 196;
+//Label: 1$0000000002 @ 220;
+//Label: bytecmp @ 256;
+//Label: 1$0000000003 @ 268;
+//Label: cmpdone @ 300;
+//Label: cmpne @ 312;
+//Label: 9$0000000000 @ 336;
+
+// end file ../libc/bcmp.s
+FileDescriptor(adr=0, rss=1, issBase=223, cbSs=107, isymBase=15, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/regdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/regdef.h
+
+// end file /f/release1/usr/include/sys/regdef.h
+FileDescriptor(adr=0, rss=1, issBase=330, cbSs=101, isymBase=17, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=431, cbSs=102, isymBase=19, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/asm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/asm.h
+
+// end file /f/release1/usr/include/sys/asm.h
+FileDescriptor(adr=0, rss=1, issBase=533, cbSs=101, isymBase=21, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h

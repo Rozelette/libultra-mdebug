@@ -1,0 +1,211 @@
+SymbolicHeader(magic=28681, vstamp=787, ilineMax=46, cbLine=40, cbLineOffset=648, idnMax=19, cbDnOffset=3240, ipdMax=1, cbPdOffset=688, isymMax=28, cbSymOffset=740, ioptMax=0, cbOptOffset=552, iauxMax=4, cbAuxOffset=1076, issMax=1208, cbSsOffset=1092, issExtMax=68, cbSsExtOffset=2300, ifdMax=11, cbFdOffset=2368, crfd=0, cbRfdOffset=552, iextMax=5, cbExtOffset=3160)
+Using OFFSET of 0
+FileDescriptor(adr=0, rss=1, issBase=0, cbSs=167, isymBase=0, csym=8, ilineBase=0, cline=46, ioptBase=0, copt=0, ipdFirst=0, cpd=1, iauxBase=0, caux=4, rfdBase=0, crfd=0, XXX_bitfield=419430400, cbLineOffset=0, cbLine=37)
+    name:../os/probetlb.s
+    procedures:
+        ProcedureDescriptor(adr=0, isym=1, iline=0, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=21, lnHigh=67, cbLineOffset=0)
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=8)
+            name:../os/probetlb.s
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=102, value=0, st=6, sc=1, index=2)
+            name:__osProbeTLB
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=7), rndx=RelativeSymbol(rfd=0, index=7), dnLow=7, dnHigh=7, isym=7, iss=7, width=7, count=7)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=115, value=120, st=5, sc=1, index=1048575)
+            name:1$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=128, value=124, st=5, sc=1, index=1048575)
+            name:2$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=141, value=168, st=5, sc=1, index=1048575)
+            name:3$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=154, value=172, st=5, sc=1, index=1048575)
+            name:4$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=102, value=184, st=8, sc=1, index=1)
+            name:__osProbeTLB
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../os/probetlb.s
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../os/probetlb.s
+
+nil __osProbeTLB();
+//Label: 1$0000000000 @ 120;
+//Label: 2$0000000000 @ 124;
+//Label: 3$0000000000 @ 168;
+//Label: 4$0000000000 @ 172;
+
+// end file ../os/probetlb.s
+FileDescriptor(adr=0, rss=1, issBase=167, cbSs=93, isymBase=8, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/asm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/asm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/asm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/asm.h
+
+// end file /f/release1/usr/include/asm.h
+FileDescriptor(adr=0, rss=1, issBase=260, cbSs=102, isymBase=10, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/asm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/asm.h
+
+// end file /f/release1/usr/include/sys/asm.h
+FileDescriptor(adr=0, rss=1, issBase=362, cbSs=101, isymBase=12, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=463, cbSs=99, isymBase=14, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/regdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/regdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/regdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/regdef.h
+
+// end file /f/release1/usr/include/regdef.h
+FileDescriptor(adr=0, rss=1, issBase=562, cbSs=107, isymBase=16, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/regdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/regdef.h
+
+// end file /f/release1/usr/include/sys/regdef.h
+FileDescriptor(adr=0, rss=1, issBase=669, cbSs=101, isymBase=18, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=770, cbSs=111, isymBase=20, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/fpregdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/fpregdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/fpregdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/fpregdef.h
+
+// end file /f/release1/usr/include/sys/fpregdef.h
+FileDescriptor(adr=0, rss=1, issBase=881, cbSs=101, isymBase=22, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=982, cbSs=113, isymBase=24, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:../../include/R4300.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:../../include/R4300.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../../include/R4300.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../../include/R4300.h
+
+// end file ../../include/R4300.h
+FileDescriptor(adr=0, rss=1, issBase=1095, cbSs=113, isymBase=26, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=1, cpd=0, iauxBase=4, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/PR/ultratypes.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/PR/ultratypes.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/PR/ultratypes.h
+
+// end file /f/release1/usr/include/PR/ultratypes.h

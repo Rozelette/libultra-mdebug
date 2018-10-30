@@ -1,0 +1,142 @@
+SymbolicHeader(magic=28681, vstamp=787, ilineMax=46, cbLine=36, cbLineOffset=776, idnMax=20, cbDnOffset=2440, ipdMax=2, cbPdOffset=812, isymMax=21, cbSymOffset=916, ioptMax=0, cbOptOffset=680, iauxMax=8, cbAuxOffset=1168, issMax=600, cbSsOffset=1200, issExtMax=104, cbSsExtOffset=1800, ifdMax=5, cbFdOffset=1904, crfd=0, cbRfdOffset=680, iextMax=11, cbExtOffset=2264)
+Using OFFSET of 0
+FileDescriptor(adr=0, rss=1, issBase=0, cbSs=189, isymBase=0, csym=13, ilineBase=0, cline=46, ioptBase=0, copt=0, ipdFirst=0, cpd=2, iauxBase=0, caux=8, rfdBase=0, crfd=0, XXX_bitfield=419430400, cbLineOffset=0, cbLine=34)
+    name:../libc/bzero.s
+    procedures:
+        ProcedureDescriptor(adr=0, isym=1, iline=0, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=38, lnHigh=88, cbLineOffset=0)
+        ProcedureDescriptor(adr=0, isym=2, iline=0, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=0, pcreg=0, lnLow=39, lnHigh=-1, cbLineOffset=0)
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=13)
+            name:../libc/bzero.s
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=100, value=0, st=6, sc=1, index=2)
+            name:_bzero
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=12), rndx=RelativeSymbol(rfd=0, index=12), dnLow=12, dnHigh=12, isym=12, iss=12, width=12, count=12)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=107, value=0, st=6, sc=1, index=6)
+            name:_blkclr
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=11), rndx=RelativeSymbol(rfd=0, index=11), dnLow=11, dnHigh=11, isym=11, iss=11, width=11, count=11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=0, index=0), dnLow=0, dnHigh=0, isym=0, iss=0, width=0, count=0)
+        Symbol(iss=115, value=40, st=5, sc=1, index=1048575)
+            name:blkzero
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=123, value=64, st=5, sc=1, index=1048575)
+            name:1$0000000000
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=136, value=108, st=5, sc=1, index=1048575)
+            name:wordzero
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=145, value=132, st=5, sc=1, index=1048575)
+            name:1$0000000001
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=158, value=148, st=5, sc=1, index=1048575)
+            name:bytezero
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=167, value=160, st=5, sc=1, index=1048575)
+            name:1$0000000002
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=180, value=176, st=5, sc=1, index=1048575)
+            name:zerodone
+            type:stLabel(5)
+            storage class:scText(1)
+        Symbol(iss=107, value=184, st=8, sc=1, index=2)
+            name:_blkclr
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=100, value=184, st=8, sc=1, index=1)
+            name:_bzero
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../libc/bzero.s
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../libc/bzero.s
+
+nil _bzero();
+nil _blkclr();
+//Label: blkzero @ 40;
+//Label: 1$0000000000 @ 64;
+//Label: wordzero @ 108;
+//Label: 1$0000000001 @ 132;
+//Label: bytezero @ 148;
+//Label: 1$0000000002 @ 160;
+//Label: zerodone @ 176;
+
+// end file ../libc/bzero.s
+FileDescriptor(adr=0, rss=1, issBase=189, cbSs=107, isymBase=13, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=8, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/regdef.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/regdef.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/regdef.h
+
+// end file /f/release1/usr/include/sys/regdef.h
+FileDescriptor(adr=0, rss=1, issBase=296, cbSs=101, isymBase=15, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=8, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=397, cbSs=102, isymBase=17, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=8, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sys/asm.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sys/asm.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sys/asm.h
+
+// end file /f/release1/usr/include/sys/asm.h
+FileDescriptor(adr=0, rss=1, issBase=499, cbSs=101, isymBase=19, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=8, caux=0, rfdBase=0, crfd=0, XXX_bitfield=486539264, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+// end file /f/release1/usr/include/sgidefs.h

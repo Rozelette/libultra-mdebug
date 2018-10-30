@@ -1,0 +1,242 @@
+SymbolicHeader(magic=28681, vstamp=787, ilineMax=164, cbLine=32, cbLineOffset=1272, idnMax=37, cbDnOffset=3128, ipdMax=8, cbPdOffset=1304, isymMax=42, cbSymOffset=1720, ioptMax=0, cbOptOffset=1176, iauxMax=31, cbAuxOffset=2224, issMax=496, cbSsOffset=2348, issExtMax=84, cbSsExtOffset=2844, ifdMax=1, cbFdOffset=2928, crfd=0, cbRfdOffset=1176, iextMax=8, cbExtOffset=3000)
+Using OFFSET of 0
+FileDescriptor(adr=0, rss=1, issBase=0, cbSs=495, isymBase=0, csym=42, ilineBase=0, cline=164, ioptBase=0, copt=0, ipdFirst=0, cpd=8, iauxBase=0, caux=31, rfdBase=0, crfd=0, XXX_bitfield=16777216, cbLineOffset=0, cbLine=30)
+    name:../libc/llcvt.c
+    procedures:
+        ProcedureDescriptor(adr=0, isym=1, iline=0, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=3, lnHigh=5, cbLineOffset=0)
+        ProcedureDescriptor(adr=44, isym=6, iline=11, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=9, lnHigh=11, cbLineOffset=2)
+        ProcedureDescriptor(adr=88, isym=11, iline=22, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=15, lnHigh=17, cbLineOffset=4)
+        ProcedureDescriptor(adr=268, isym=16, iline=67, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=21, lnHigh=23, cbLineOffset=10)
+        ProcedureDescriptor(adr=444, isym=21, iline=111, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=27, lnHigh=29, cbLineOffset=16)
+        ProcedureDescriptor(adr=484, isym=26, iline=121, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=33, lnHigh=35, cbLineOffset=19)
+        ProcedureDescriptor(adr=524, isym=31, iline=131, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=39, lnHigh=41, cbLineOffset=22)
+        ProcedureDescriptor(adr=592, isym=36, iline=148, regmask=0, regoffset=0, iopt=-1, fregmask=0, fregoffset=0, frameoffset=0, framereg=29, pcreg=31, lnLow=45, lnHigh=47, cbLineOffset=26)
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=42)
+            name:../libc/llcvt.c
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=395, value=0, st=6, sc=1, index=15)
+            name:__d_to_ll
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=6), rndx=RelativeSymbol(rfd=0, index=6), dnLow=6, dnHigh=6, isym=6, iss=6, width=6, count=6)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=32, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=512, index=0), dnLow=536870912, dnHigh=536870912, isym=536870912, iss=536870912, width=536870912, count=536870912)
+        Symbol(iss=405, value=44, st=3, sc=4, index=11)
+            name:d
+            type:stParam(3)
+            storage class:scRegister(4)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=11, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=176, index=0), dnLow=184549376, dnHigh=184549376, isym=184549376, iss=184549376, width=184549376, count=184549376)
+        Symbol(iss=0, value=0, st=7, sc=1, index=5)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=0, value=28, st=8, sc=1, index=3)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=395, value=44, st=8, sc=1, index=1)
+            name:__d_to_ll
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=407, value=44, st=6, sc=1, index=17)
+            name:__f_to_ll
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=11), rndx=RelativeSymbol(rfd=0, index=11), dnLow=11, dnHigh=11, isym=11, iss=11, width=11, count=11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=32, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=512, index=0), dnLow=536870912, dnHigh=536870912, isym=536870912, iss=536870912, width=536870912, count=536870912)
+        Symbol(iss=417, value=44, st=3, sc=4, index=10)
+            name:f
+            type:stParam(3)
+            storage class:scRegister(4)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=10, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=160, index=0), dnLow=167772160, dnHigh=167772160, isym=167772160, iss=167772160, width=167772160, count=167772160)
+        Symbol(iss=0, value=0, st=7, sc=1, index=10)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=0, value=28, st=8, sc=1, index=8)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=407, value=44, st=8, sc=1, index=6)
+            name:__f_to_ll
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=419, value=88, st=6, sc=1, index=19)
+            name:__d_to_ull
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=1, tq3=0), rndx=RelativeSymbol(rfd=0, index=16), dnLow=16, dnHigh=16, isym=16, iss=16, width=16, count=16)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=33, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=528, index=0), dnLow=553648128, dnHigh=553648128, isym=553648128, iss=553648128, width=553648128, count=553648128)
+        Symbol(iss=430, value=44, st=3, sc=4, index=11)
+            name:d
+            type:stParam(3)
+            storage class:scRegister(4)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=11, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=176, index=0), dnLow=184549376, dnHigh=184549376, isym=184549376, iss=184549376, width=184549376, count=184549376)
+        Symbol(iss=0, value=0, st=7, sc=1, index=15)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=0, value=164, st=8, sc=1, index=13)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=419, value=180, st=8, sc=1, index=11)
+            name:__d_to_ull
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=432, value=268, st=6, sc=1, index=21)
+            name:__f_to_ull
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=1, tq3=5), rndx=RelativeSymbol(rfd=0, index=21), dnLow=21, dnHigh=21, isym=21, iss=21, width=21, count=21)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=33, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=528, index=0), dnLow=553648128, dnHigh=553648128, isym=553648128, iss=553648128, width=553648128, count=553648128)
+        Symbol(iss=443, value=44, st=3, sc=4, index=10)
+            name:f
+            type:stParam(3)
+            storage class:scRegister(4)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=10, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=160, index=0), dnLow=167772160, dnHigh=167772160, isym=167772160, iss=167772160, width=167772160, count=167772160)
+        Symbol(iss=0, value=0, st=7, sc=1, index=20)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=0, value=160, st=8, sc=1, index=18)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=432, value=176, st=8, sc=1, index=16)
+            name:__f_to_ull
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=445, value=444, st=6, sc=1, index=23)
+            name:__ll_to_d
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=1, tq3=10), rndx=RelativeSymbol(rfd=0, index=26), dnLow=26, dnHigh=26, isym=26, iss=26, width=26, count=26)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=11, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=176, index=0), dnLow=184549376, dnHigh=184549376, isym=184549376, iss=184549376, width=184549376, count=184549376)
+        Symbol(iss=455, value=0, st=3, sc=5, index=8)
+            name:l
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=32, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=512, index=0), dnLow=536870912, dnHigh=536870912, isym=536870912, iss=536870912, width=536870912, count=536870912)
+        Symbol(iss=0, value=8, st=7, sc=1, index=25)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=0, value=24, st=8, sc=1, index=23)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=445, value=40, st=8, sc=1, index=21)
+            name:__ll_to_d
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=457, value=484, st=6, sc=1, index=25)
+            name:__ll_to_f
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=1, tq3=15), rndx=RelativeSymbol(rfd=0, index=31), dnLow=31, dnHigh=31, isym=31, iss=31, width=31, count=31)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=10, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=160, index=0), dnLow=167772160, dnHigh=167772160, isym=167772160, iss=167772160, width=167772160, count=167772160)
+        Symbol(iss=467, value=0, st=3, sc=5, index=8)
+            name:l
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=32, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=512, index=0), dnLow=536870912, dnHigh=536870912, isym=536870912, iss=536870912, width=536870912, count=536870912)
+        Symbol(iss=0, value=8, st=7, sc=1, index=30)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=0, value=24, st=8, sc=1, index=28)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=457, value=40, st=8, sc=1, index=26)
+            name:__ll_to_f
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=469, value=524, st=6, sc=1, index=27)
+            name:__ull_to_d
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=2, tq3=4), rndx=RelativeSymbol(rfd=0, index=36), dnLow=36, dnHigh=36, isym=36, iss=36, width=36, count=36)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=11, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=176, index=0), dnLow=184549376, dnHigh=184549376, isym=184549376, iss=184549376, width=184549376, count=184549376)
+        Symbol(iss=480, value=0, st=3, sc=5, index=9)
+            name:l
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=33, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=528, index=0), dnLow=553648128, dnHigh=553648128, isym=553648128, iss=553648128, width=553648128, count=553648128)
+        Symbol(iss=0, value=8, st=7, sc=1, index=35)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=0, value=52, st=8, sc=1, index=33)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=469, value=68, st=8, sc=1, index=31)
+            name:__ull_to_d
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=482, value=592, st=6, sc=1, index=29)
+            name:__ull_to_f
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=2, tq3=9), rndx=RelativeSymbol(rfd=0, index=41), dnLow=41, dnHigh=41, isym=41, iss=41, width=41, count=41)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=10, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=160, index=0), dnLow=167772160, dnHigh=167772160, isym=167772160, iss=167772160, width=167772160, count=167772160)
+        Symbol(iss=493, value=0, st=3, sc=5, index=9)
+            name:l
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=33, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=528, index=0), dnLow=553648128, dnHigh=553648128, isym=553648128, iss=553648128, width=553648128, count=553648128)
+        Symbol(iss=0, value=8, st=7, sc=1, index=40)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=0, value=48, st=8, sc=1, index=38)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=482, value=64, st=8, sc=1, index=36)
+            name:__ull_to_f
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../libc/llcvt.c
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../libc/llcvt.c
+
+long long __d_to_ll(double d);
+//{
+//}
+
+long long __f_to_ll(float f);
+//{
+//}
+
+unsigned long long __d_to_ull(double d);
+//{
+//}
+
+unsigned long long __f_to_ull(float f);
+//{
+//}
+
+double __ll_to_d(long long l);
+//{
+//}
+
+float __ll_to_f(long long l);
+//{
+//}
+
+double __ull_to_d(unsigned long long l);
+//{
+//}
+
+float __ull_to_f(unsigned long long l);
+//{
+//}
+
+// end file ../libc/llcvt.c

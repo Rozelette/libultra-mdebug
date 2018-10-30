@@ -1,0 +1,747 @@
+SymbolicHeader(magic=28681, vstamp=787, ilineMax=1176, cbLine=196, cbLineOffset=6392, idnMax=73, cbDnOffset=11228, ipdMax=2, cbPdOffset=6588, isymMax=112, cbSymOffset=6692, ioptMax=0, cbOptOffset=6296, iauxMax=214, cbAuxOffset=8036, issMax=1504, cbSsOffset=8892, issExtMax=80, cbSsExtOffset=10396, ifdMax=8, cbFdOffset=10476, crfd=0, cbRfdOffset=6296, iextMax=11, cbExtOffset=11052)
+Using OFFSET of 0
+FileDescriptor(adr=0, rss=1, issBase=0, cbSs=554, isymBase=0, csym=49, ilineBase=0, cline=1176, ioptBase=0, copt=0, ipdFirst=0, cpd=2, iauxBase=0, caux=67, rfdBase=0, crfd=0, XXX_bitfield=16777216, cbLineOffset=0, cbLine=196)
+    name:../rmon/xprintf.c
+    procedures:
+        ProcedureDescriptor(adr=0, isym=3, iline=0, regmask=-2147418112, regoffset=-148, iopt=-1, fregmask=0, fregoffset=0, frameoffset=176, framereg=29, pcreg=31, lnLow=39, lnHigh=112, cbLineOffset=0)
+        ProcedureDescriptor(adr=2228, isym=40, iline=557, regmask=-2146500608, regoffset=-20, iopt=-1, fregmask=0, fregoffset=0, frameoffset=56, framereg=29, pcreg=31, lnLow=115, lnHigh=207, cbLineOffset=89)
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=49)
+            name:../rmon/xprintf.c
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=452, value=0, st=2, sc=2, index=15)
+            name:spaces
+            type:stStatic(2)
+            storage class:scData(2)
+        Symbol(iss=459, value=36, st=2, sc=2, index=21)
+            name:zeroes
+            type:stStatic(2)
+            storage class:scData(2)
+        Symbol(iss=466, value=0, st=6, sc=1, index=33)
+            name:_Printf
+            type:stProc(6)
+            storage class:scText(1)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=2, tq3=8), rndx=RelativeSymbol(rfd=0, index=40), dnLow=40, dnHigh=40, isym=40, iss=40, width=40, count=40)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=474, value=0, st=3, sc=5, index=27)
+            name:pfn
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=26, tq4=0, tq5=0, tq0=1, tq1=2, tq2=1, tq3=0), rndx=RelativeSymbol(rfd=416, index=4624), dnLow=436212240, dnHigh=436212240, isym=436212240, iss=436212240, width=436212240, count=436212240)
+        Symbol(iss=478, value=4, st=3, sc=5, index=28)
+            name:arg
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=26, tq4=0, tq5=0, tq0=1, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=416, index=4096), dnLow=436211712, dnHigh=436211712, isym=436211712, iss=436211712, width=436211712, count=436211712)
+        Symbol(iss=482, value=8, st=3, sc=5, index=29)
+            name:fmt
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=3, tq4=0, tq5=0, tq0=6, tq1=1, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=48, index=24832), dnLow=50356480, dnHigh=50356480, isym=50356480, iss=50356480, width=50356480, count=50356480)
+        Symbol(iss=486, value=12, st=3, sc=5, index=30)
+            name:ap
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=15, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=240, index=0), dnLow=251658240, dnHigh=251658240, isym=251658240, iss=251658240, width=251658240, count=251658240)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=1), rndx=RelativeSymbol(rfd=4095, index=1), dnLow=4293918721, dnHigh=4293918721, isym=4293918721, iss=4293918721, width=4293918721, count=4293918721)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=4), rndx=RelativeSymbol(rfd=0, index=4), dnLow=4, dnHigh=4, isym=4, iss=4, width=4, count=4)
+                Symbol(iss=99, value=0, st=10, sc=11, index=15)
+                    name:va_list
+        Symbol(iss=0, value=28, st=7, sc=1, index=39)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=489, value=4294967240, st=4, sc=5, index=35)
+            name:x
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=12, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=192, index=0), dnLow=201326592, dnHigh=201326592, isym=201326592, iss=201326592, width=201326592, count=201326592)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=2), rndx=RelativeSymbol(rfd=4095, index=2), dnLow=4293918722, dnHigh=4293918722, isym=4293918722, iss=4293918722, width=4293918722, count=4293918722)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=6), rndx=RelativeSymbol(rfd=0, index=6), dnLow=6, dnHigh=6, isym=6, iss=6, width=6, count=6)
+                Symbol(iss=0, value=56, st=26, sc=11, index=21)
+                    name:
+        Symbol(iss=0, value=32, st=7, sc=1, index=38)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=491, value=4294967236, st=4, sc=5, index=38)
+            name:s
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=3, tq4=0, tq5=0, tq0=6, tq1=1, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=48, index=24832), dnLow=50356480, dnHigh=50356480, isym=50356480, iss=50356480, width=50356480, count=50356480)
+        Symbol(iss=493, value=4294967235, st=4, sc=5, index=1)
+            name:c
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=3, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=48, index=0), dnLow=50331648, dnHigh=50331648, isym=50331648, iss=50331648, width=50331648, count=50331648)
+        Symbol(iss=495, value=4294967228, st=4, sc=5, index=39)
+            name:t
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=3, tq4=0, tq5=0, tq0=6, tq1=1, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=48, index=24832), dnLow=50356480, dnHigh=50356480, isym=50356480, iss=50356480, width=50356480, count=50356480)
+        Symbol(iss=497, value=4, st=2, sc=15, index=40)
+            name:fchar
+            type:stStatic(2)
+            storage class:scRData(15)
+        Symbol(iss=503, value=12, st=2, sc=15, index=46)
+            name:fbit
+            type:stStatic(2)
+            storage class:scRData(15)
+        Symbol(iss=508, value=4294967196, st=4, sc=5, index=52)
+            name:ac
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=3, tq4=0, tq5=0, tq0=3, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=48, index=12288), dnLow=50343936, dnHigh=50343936, isym=50343936, iss=50343936, width=50343936, count=50343936)
+        Symbol(iss=0, value=1088, st=7, sc=1, index=21)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=511, value=4294967192, st=4, sc=5, index=4)
+            name:i
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=513, value=4294967188, st=4, sc=5, index=4)
+            name:j
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=0, value=1244, st=8, sc=1, index=17)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=0, value=1332, st=7, sc=1, index=25)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=515, value=4294967184, st=4, sc=5, index=4)
+            name:i
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=517, value=4294967180, st=4, sc=5, index=4)
+            name:j
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=0, value=1488, st=8, sc=1, index=21)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=0, value=1576, st=7, sc=1, index=29)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=519, value=4294967176, st=4, sc=5, index=4)
+            name:i
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=521, value=4294967172, st=4, sc=5, index=4)
+            name:j
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=0, value=1732, st=8, sc=1, index=25)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=0, value=1832, st=7, sc=1, index=33)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=523, value=4294967168, st=4, sc=5, index=4)
+            name:i
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=525, value=4294967164, st=4, sc=5, index=4)
+            name:j
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=0, value=1988, st=8, sc=1, index=29)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=0, value=2016, st=7, sc=1, index=37)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=527, value=4294967160, st=4, sc=5, index=4)
+            name:i
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=529, value=4294967156, st=4, sc=5, index=4)
+            name:j
+            type:stLocal(4)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=0, value=2172, st=8, sc=1, index=33)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=0, value=2184, st=8, sc=1, index=10)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=0, value=2200, st=8, sc=1, index=8)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=466, value=2228, st=8, sc=1, index=3)
+            name:_Printf
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=531, value=2228, st=14, sc=1, index=65)
+            name:_Putfld
+            type:stStaticProc(14)
+            storage class:scText(1)
+        Symbol(iss=539, value=0, st=3, sc=5, index=58)
+            name:px
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=12, tq4=0, tq5=0, tq0=1, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=192, index=4096), dnLow=201330688, dnHigh=201330688, isym=201330688, iss=201330688, width=201330688, count=201330688)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=2), rndx=RelativeSymbol(rfd=4095, index=2), dnLow=4293918722, dnHigh=4293918722, isym=4293918722, iss=4293918722, width=4293918722, count=4293918722)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=6), rndx=RelativeSymbol(rfd=0, index=6), dnLow=6, dnHigh=6, isym=6, iss=6, width=6, count=6)
+                Symbol(iss=0, value=56, st=26, sc=11, index=21)
+                    name:
+        Symbol(iss=542, value=4, st=3, sc=5, index=61)
+            name:pap
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=15, tq4=0, tq5=0, tq0=1, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=240, index=4096), dnLow=251662336, dnHigh=251662336, isym=251662336, iss=251662336, width=251662336, count=251662336)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=1), rndx=RelativeSymbol(rfd=4095, index=1), dnLow=4293918721, dnHigh=4293918721, isym=4293918721, iss=4293918721, width=4293918721, count=4293918721)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=4), rndx=RelativeSymbol(rfd=0, index=4), dnLow=4, dnHigh=4, isym=4, iss=4, width=4, count=4)
+                Symbol(iss=99, value=0, st=10, sc=11, index=15)
+                    name:va_list
+        Symbol(iss=546, value=11, st=3, sc=5, index=1)
+            name:code
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=3, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=48, index=0), dnLow=50331648, dnHigh=50331648, isym=50331648, iss=50331648, width=50331648, count=50331648)
+        Symbol(iss=551, value=12, st=3, sc=5, index=64)
+            name:ac
+            type:stParam(3)
+            storage class:scAbs(5)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=3, tq4=0, tq5=0, tq0=1, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=48, index=4096), dnLow=50335744, dnHigh=50335744, isym=50335744, iss=50335744, width=50335744, count=50335744)
+        Symbol(iss=0, value=40, st=7, sc=1, index=47)
+            name:
+            type:stBlock(7)
+            storage class:scText(1)
+        Symbol(iss=0, value=2440, st=8, sc=1, index=45)
+            name:
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=531, value=2476, st=8, sc=1, index=40)
+            name:_Putfld
+            type:stEnd(8)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../rmon/xprintf.c
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../rmon/xprintf.c
+
+static unsigned char spaces[33];
+
+static unsigned char zeroes[33];
+
+int _Printf(void* (*pfn)(... /* ECOFF does not store param types */), void* arg, const unsigned char* fmt, va_list ap);
+//{
+//    _Pft x;
+//    {
+//        const unsigned char* s;
+//        unsigned char c;
+//        const unsigned char* t;
+//        static const unsigned char fchar[6];
+//        static const unsigned int fbit[6];
+//        unsigned char ac[32];
+//        {
+//            int i;
+//            int j;
+//        }
+//        {
+//            int i;
+//            int j;
+//        }
+//        {
+//            int i;
+//            int j;
+//        }
+//        {
+//            int i;
+//            int j;
+//        }
+//        {
+//            int i;
+//            int j;
+//        }
+//    }
+//}
+
+void _Putfld(_Pft* px, va_list* pap, unsigned char code, unsigned char* ac);
+//{
+//}
+
+// end file ../rmon/xprintf.c
+FileDescriptor(adr=0, rss=1, issBase=554, cbSs=193, isymBase=49, csym=10, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=67, caux=27, rfdBase=0, crfd=0, XXX_bitfield=83886080, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/sgidefs.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=10)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=101, value=0, st=10, sc=11, index=4)
+            name:__int32_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=111, value=0, st=10, sc=11, index=5)
+            name:__uint32_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=7, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=112, index=0), dnLow=117440512, dnHigh=117440512, isym=117440512, iss=117440512, width=117440512, count=117440512)
+        Symbol(iss=122, value=0, st=10, sc=11, index=8)
+            name:__int64_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=32, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=512, index=0), dnLow=536870912, dnHigh=536870912, isym=536870912, iss=536870912, width=536870912, count=536870912)
+        Symbol(iss=132, value=0, st=10, sc=11, index=9)
+            name:__uint64_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=33, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=528, index=0), dnLow=553648128, dnHigh=553648128, isym=553648128, iss=553648128, width=553648128, count=553648128)
+        Symbol(iss=143, value=0, st=10, sc=11, index=15)
+            name:__psint_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=15, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=240, index=0), dnLow=251658240, dnHigh=251658240, isym=251658240, iss=251658240, width=251658240, count=251658240)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=1), rndx=RelativeSymbol(rfd=4095, index=1), dnLow=4293918721, dnHigh=4293918721, isym=4293918721, iss=4293918721, width=4293918721, count=4293918721)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=1), rndx=RelativeSymbol(rfd=0, index=1), dnLow=1, dnHigh=1, isym=1, iss=1, width=1, count=1)
+                Symbol(iss=101, value=0, st=10, sc=11, index=4)
+                    name:__int32_t
+        Symbol(iss=153, value=0, st=10, sc=11, index=18)
+            name:__psunsigned_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=15, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=240, index=0), dnLow=251658240, dnHigh=251658240, isym=251658240, iss=251658240, width=251658240, count=251658240)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=2), rndx=RelativeSymbol(rfd=4095, index=2), dnLow=4293918722, dnHigh=4293918722, isym=4293918722, iss=4293918722, width=4293918722, count=4293918722)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=1), rndx=RelativeSymbol(rfd=0, index=1), dnLow=1, dnHigh=1, isym=1, iss=1, width=1, count=1)
+                Symbol(iss=111, value=0, st=10, sc=11, index=5)
+                    name:__uint32_t
+        Symbol(iss=168, value=0, st=10, sc=11, index=21)
+            name:__scint_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=15, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=240, index=0), dnLow=251658240, dnHigh=251658240, isym=251658240, iss=251658240, width=251658240, count=251658240)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=1), rndx=RelativeSymbol(rfd=4095, index=1), dnLow=4293918721, dnHigh=4293918721, isym=4293918721, iss=4293918721, width=4293918721, count=4293918721)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=1), rndx=RelativeSymbol(rfd=0, index=1), dnLow=1, dnHigh=1, isym=1, iss=1, width=1, count=1)
+                Symbol(iss=101, value=0, st=10, sc=11, index=4)
+                    name:__int32_t
+        Symbol(iss=178, value=0, st=10, sc=11, index=24)
+            name:__scunsigned_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=15, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=240, index=0), dnLow=251658240, dnHigh=251658240, isym=251658240, iss=251658240, width=251658240, count=251658240)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=2), rndx=RelativeSymbol(rfd=4095, index=2), dnLow=4293918722, dnHigh=4293918722, isym=4293918722, iss=4293918722, width=4293918722, count=4293918722)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=1), rndx=RelativeSymbol(rfd=0, index=1), dnLow=1, dnHigh=1, isym=1, iss=1, width=1, count=1)
+                Symbol(iss=111, value=0, st=10, sc=11, index=5)
+                    name:__uint32_t
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/sgidefs.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/sgidefs.h
+
+typedef int __int32_t;
+
+typedef unsigned int __uint32_t;
+
+typedef long long __int64_t;
+
+typedef unsigned long long __uint64_t;
+
+typedef __int32_t __psint_t;
+
+typedef __uint32_t __psunsigned_t;
+
+typedef __int32_t __scint_t;
+
+typedef __uint32_t __scunsigned_t;
+
+// end file /f/release1/usr/include/sgidefs.h
+FileDescriptor(adr=0, rss=1, issBase=747, cbSs=170, isymBase=59, csym=20, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=94, caux=30, rfdBase=0, crfd=0, XXX_bitfield=83886080, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/stdlib.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=20)
+            name:/f/release1/usr/include/stdlib.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=0, value=8, st=26, sc=11, index=5)
+            name:
+            type:stStruct(26)
+            storage class:scInfo(11)
+        Symbol(iss=99, value=0, st=9, sc=11, index=4)
+            name:quot
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=104, value=32, st=9, sc=11, index=4)
+            name:rem
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=0, value=0, st=8, sc=11, index=1)
+            name:
+            type:stEnd(8)
+            storage class:scInfo(11)
+        Symbol(iss=108, value=0, st=10, sc=11, index=15)
+            name:div_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=12, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=192, index=0), dnLow=201326592, dnHigh=201326592, isym=201326592, iss=201326592, width=201326592, count=201326592)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=1), rndx=RelativeSymbol(rfd=4095, index=1), dnLow=4293918721, dnHigh=4293918721, isym=4293918721, iss=4293918721, width=4293918721, count=4293918721)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=2), rndx=RelativeSymbol(rfd=0, index=2), dnLow=2, dnHigh=2, isym=2, iss=2, width=2, count=2)
+                Symbol(iss=0, value=8, st=26, sc=11, index=5)
+                    name:
+        Symbol(iss=0, value=8, st=26, sc=11, index=10)
+            name:
+            type:stStruct(26)
+            storage class:scInfo(11)
+        Symbol(iss=114, value=0, st=9, sc=11, index=6)
+            name:quot
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=8, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=128, index=0), dnLow=134217728, dnHigh=134217728, isym=134217728, iss=134217728, width=134217728, count=134217728)
+        Symbol(iss=119, value=32, st=9, sc=11, index=6)
+            name:rem
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=8, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=128, index=0), dnLow=134217728, dnHigh=134217728, isym=134217728, iss=134217728, width=134217728, count=134217728)
+        Symbol(iss=0, value=0, st=8, sc=11, index=6)
+            name:
+            type:stEnd(8)
+            storage class:scInfo(11)
+        Symbol(iss=123, value=0, st=10, sc=11, index=18)
+            name:ldiv_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=12, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=192, index=0), dnLow=201326592, dnHigh=201326592, isym=201326592, iss=201326592, width=201326592, count=201326592)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=6), rndx=RelativeSymbol(rfd=4095, index=6), dnLow=4293918726, dnHigh=4293918726, isym=4293918726, iss=4293918726, width=4293918726, count=4293918726)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=2), rndx=RelativeSymbol(rfd=0, index=2), dnLow=2, dnHigh=2, isym=2, iss=2, width=2, count=2)
+                Symbol(iss=0, value=8, st=26, sc=11, index=10)
+                    name:
+        Symbol(iss=0, value=16, st=26, sc=11, index=15)
+            name:
+            type:stStruct(26)
+            storage class:scInfo(11)
+        Symbol(iss=130, value=0, st=9, sc=11, index=8)
+            name:quot
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=32, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=512, index=0), dnLow=536870912, dnHigh=536870912, isym=536870912, iss=536870912, width=536870912, count=536870912)
+        Symbol(iss=135, value=64, st=9, sc=11, index=8)
+            name:rem
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=32, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=512, index=0), dnLow=536870912, dnHigh=536870912, isym=536870912, iss=536870912, width=536870912, count=536870912)
+        Symbol(iss=0, value=0, st=8, sc=11, index=11)
+            name:
+            type:stEnd(8)
+            storage class:scInfo(11)
+        Symbol(iss=139, value=0, st=10, sc=11, index=21)
+            name:lldiv_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=12, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=192, index=0), dnLow=201326592, dnHigh=201326592, isym=201326592, iss=201326592, width=201326592, count=201326592)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=11), rndx=RelativeSymbol(rfd=4095, index=11), dnLow=4293918731, dnHigh=4293918731, isym=4293918731, iss=4293918731, width=4293918731, count=4293918731)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=2), rndx=RelativeSymbol(rfd=0, index=2), dnLow=2, dnHigh=2, isym=2, iss=2, width=2, count=2)
+                Symbol(iss=0, value=16, st=26, sc=11, index=15)
+                    name:
+        Symbol(iss=147, value=0, st=10, sc=11, index=5)
+            name:size_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=7, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=112, index=0), dnLow=117440512, dnHigh=117440512, isym=117440512, iss=117440512, width=117440512, count=117440512)
+        Symbol(iss=154, value=0, st=10, sc=11, index=4)
+            name:ssize_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=162, value=0, st=10, sc=11, index=6)
+            name:wchar_t
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=8, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=128, index=0), dnLow=134217728, dnHigh=134217728, isym=134217728, iss=134217728, width=134217728, count=134217728)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/stdlib.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/stdlib.h
+
+
+typedef struct {
+    /* 0 */ int quot;
+    /* 4 */ int rem;
+} div_t;
+
+
+typedef struct {
+    /* 0 */ long quot;
+    /* 4 */ long rem;
+} ldiv_t;
+
+
+typedef struct {
+    /* 0 */ long long quot;
+    /* 8 */ long long rem;
+} lldiv_t;
+
+typedef unsigned int size_t;
+
+typedef int ssize_t;
+
+typedef long wchar_t;
+
+// end file /f/release1/usr/include/stdlib.h
+FileDescriptor(adr=0, rss=1, issBase=917, cbSs=99, isymBase=79, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=124, caux=16, rfdBase=0, crfd=0, XXX_bitfield=83886080, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/getopt.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/getopt.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/getopt.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/getopt.h
+
+// end file /f/release1/usr/include/getopt.h
+FileDescriptor(adr=0, rss=1, issBase=1016, cbSs=107, isymBase=81, csym=3, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=140, caux=16, rfdBase=0, crfd=0, XXX_bitfield=83886080, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/stdarg.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=3)
+            name:/f/release1/usr/include/stdarg.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=99, value=0, st=10, sc=11, index=15)
+            name:va_list
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=3, tq4=0, tq5=0, tq0=1, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=48, index=4096), dnLow=50335744, dnHigh=50335744, isym=50335744, iss=50335744, width=50335744, count=50335744)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/stdarg.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/stdarg.h
+
+typedef unsigned char* va_list;
+
+// end file /f/release1/usr/include/stdarg.h
+FileDescriptor(adr=0, rss=1, issBase=1123, cbSs=106, isymBase=84, csym=3, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=156, caux=15, rfdBase=0, crfd=0, XXX_bitfield=83886080, cbLineOffset=0, cbLine=0)
+    name:../rmon/yvals.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=3)
+            name:../rmon/yvals.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=99, value=0, st=10, sc=11, index=5)
+            name:_Sizet
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=7, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=112, index=0), dnLow=117440512, dnHigh=117440512, isym=117440512, iss=117440512, width=117440512, count=117440512)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../rmon/yvals.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../rmon/yvals.h
+
+typedef unsigned int _Sizet;
+
+// end file ../rmon/yvals.h
+FileDescriptor(adr=0, rss=1, issBase=1229, cbSs=173, isymBase=87, csym=23, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=171, caux=28, rfdBase=0, crfd=0, XXX_bitfield=83886080, cbLineOffset=0, cbLine=0)
+    name:../rmon/xstdio.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=23)
+            name:../rmon/xstdio.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=101, value=0, st=10, sc=11, index=11)
+            name:ldouble
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=11, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=176, index=0), dnLow=184549376, dnHigh=184549376, isym=184549376, iss=184549376, width=184549376, count=184549376)
+        Symbol(iss=0, value=56, st=26, sc=11, index=21)
+            name:
+            type:stStruct(26)
+            storage class:scInfo(11)
+        Symbol(iss=0, value=8, st=27, sc=11, index=7)
+            name:
+            type:stUnion(27)
+            storage class:scInfo(11)
+        Symbol(iss=109, value=0, st=9, sc=11, index=8)
+            name:ll
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=32, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=512, index=0), dnLow=536870912, dnHigh=536870912, isym=536870912, iss=536870912, width=536870912, count=536870912)
+        Symbol(iss=112, value=0, st=9, sc=11, index=15)
+            name:ld
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=15, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=240, index=0), dnLow=251658240, dnHigh=251658240, isym=251658240, iss=251658240, width=251658240, count=251658240)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=1), rndx=RelativeSymbol(rfd=4095, index=1), dnLow=4293918721, dnHigh=4293918721, isym=4293918721, iss=4293918721, width=4293918721, count=4293918721)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=6), rndx=RelativeSymbol(rfd=0, index=6), dnLow=6, dnHigh=6, isym=6, iss=6, width=6, count=6)
+                Symbol(iss=101, value=0, st=10, sc=11, index=11)
+                    name:ldouble
+        Symbol(iss=0, value=0, st=8, sc=11, index=3)
+            name:
+            type:stEnd(8)
+            storage class:scInfo(11)
+        Symbol(iss=115, value=0, st=9, sc=11, index=18)
+            name:v
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=13, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=208, index=0), dnLow=218103808, dnHigh=218103808, isym=218103808, iss=218103808, width=218103808, count=218103808)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=3), rndx=RelativeSymbol(rfd=4095, index=3), dnLow=4293918723, dnHigh=4293918723, isym=4293918723, iss=4293918723, width=4293918723, count=4293918723)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=6), rndx=RelativeSymbol(rfd=0, index=6), dnLow=6, dnHigh=6, isym=6, iss=6, width=6, count=6)
+                Symbol(iss=0, value=8, st=27, sc=11, index=7)
+                    name:
+        Symbol(iss=117, value=64, st=9, sc=11, index=21)
+            name:s
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=3, tq4=0, tq5=0, tq0=1, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=48, index=4096), dnLow=50335744, dnHigh=50335744, isym=50335744, iss=50335744, width=50335744, count=50335744)
+        Symbol(iss=119, value=96, st=9, sc=11, index=4)
+            name:n0
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=122, value=128, st=9, sc=11, index=4)
+            name:nz0
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=126, value=160, st=9, sc=11, index=4)
+            name:n1
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=129, value=192, st=9, sc=11, index=4)
+            name:nz1
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=133, value=224, st=9, sc=11, index=4)
+            name:n2
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=136, value=256, st=9, sc=11, index=4)
+            name:nz2
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=140, value=288, st=9, sc=11, index=4)
+            name:prec
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=145, value=320, st=9, sc=11, index=4)
+            name:width
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=6, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=96, index=0), dnLow=100663296, dnHigh=100663296, isym=100663296, iss=100663296, width=100663296, count=100663296)
+        Symbol(iss=151, value=352, st=9, sc=11, index=22)
+            name:nchar
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=15, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=240, index=0), dnLow=251658240, dnHigh=251658240, isym=251658240, iss=251658240, width=251658240, count=251658240)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=1, tq3=0), rndx=RelativeSymbol(rfd=4095, index=16), dnLow=4293918736, dnHigh=4293918736, isym=4293918736, iss=4293918736, width=4293918736, count=4293918736)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=2), rndx=RelativeSymbol(rfd=0, index=2), dnLow=2, dnHigh=2, isym=2, iss=2, width=2, count=2)
+                Symbol(iss=147, value=0, st=10, sc=11, index=5)
+                    name:size_t
+        Symbol(iss=157, value=384, st=9, sc=11, index=5)
+            name:flags
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=7, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=112, index=0), dnLow=117440512, dnHigh=117440512, isym=117440512, iss=117440512, width=117440512, count=117440512)
+        Symbol(iss=163, value=416, st=9, sc=11, index=1)
+            name:qual
+            type:stMember(9)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=3, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=48, index=0), dnLow=50331648, dnHigh=50331648, isym=50331648, iss=50331648, width=50331648, count=50331648)
+        Symbol(iss=0, value=0, st=8, sc=11, index=2)
+            name:
+            type:stEnd(8)
+            storage class:scInfo(11)
+        Symbol(iss=168, value=0, st=10, sc=11, index=25)
+            name:_Pft
+            type:stTypedef(10)
+            storage class:scInfo(11)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=12, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=0), rndx=RelativeSymbol(rfd=192, index=0), dnLow=201326592, dnHigh=201326592, isym=201326592, iss=201326592, width=201326592, count=201326592)
+            AuxSymbol(ti=TypeInfo(fBitfield=1, continued=1, bt=63, tq4=15, tq5=0, tq0=0, tq1=0, tq2=0, tq3=2), rndx=RelativeSymbol(rfd=4095, index=2), dnLow=4293918722, dnHigh=4293918722, isym=4293918722, iss=4293918722, width=4293918722, count=4293918722)
+            AuxSymbol(ti=TypeInfo(fBitfield=0, continued=0, bt=0, tq4=0, tq5=0, tq0=0, tq1=0, tq2=0, tq3=6), rndx=RelativeSymbol(rfd=0, index=6), dnLow=6, dnHigh=6, isym=6, iss=6, width=6, count=6)
+                Symbol(iss=0, value=56, st=26, sc=11, index=21)
+                    name:
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:../rmon/xstdio.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file ../rmon/xstdio.h
+
+typedef double ldouble;
+
+
+typedef struct {
+    /* 0 */ union {
+        /* 0 */ long long ll;
+        /* 0 */ ldouble ld;
+    } v;
+    /* 8 */ unsigned char* s;
+    /* 12 */ int n0;
+    /* 16 */ int nz0;
+    /* 20 */ int n1;
+    /* 24 */ int nz1;
+    /* 28 */ int n2;
+    /* 32 */ int nz2;
+    /* 36 */ int prec;
+    /* 40 */ int width;
+    /* 44 */ size_t nchar;
+    /* 48 */ unsigned int flags;
+    /* 52 */ unsigned char qual;
+} _Pft;
+
+// end file ../rmon/xstdio.h
+FileDescriptor(adr=0, rss=1, issBase=1402, cbSs=99, isymBase=110, csym=2, ilineBase=0, cline=0, ioptBase=0, copt=0, ipdFirst=2, cpd=0, iauxBase=199, caux=15, rfdBase=0, crfd=0, XXX_bitfield=83886080, cbLineOffset=0, cbLine=0)
+    name:/f/release1/usr/include/string.h
+    procedures:
+    symbols:
+        Symbol(iss=1, value=0, st=11, sc=1, index=2)
+            name:/f/release1/usr/include/string.h
+            type:stFile(11)
+            storage class:scText(1)
+        Symbol(iss=1, value=0, st=8, sc=1, index=0)
+            name:/f/release1/usr/include/string.h
+            type:stEnd(8)
+            storage class:scText(1)
+    pretty print:
+// begin file /f/release1/usr/include/string.h
+
+// end file /f/release1/usr/include/string.h
