@@ -2154,385 +2154,385 @@ FileDescriptor(adr=0, rss=1, issBase=680, cbSs=1451, isymBase=29, csym=315, ilin
 
 
 typedef struct {
-    /* 0 */ short ob[3];
-    /* 6 */ unsigned short flag;
-    /* 8 */ short tc[2];
-    /* 12 */ unsigned char cn[4];
+    /* 0x0 */ short ob[3];
+    /* 0x6 */ unsigned short flag;
+    /* 0x8 */ short tc[2];
+    /* 0xC */ unsigned char cn[4];
 } Vtx_t;
 
 
 typedef struct {
-    /* 0 */ short ob[3];
-    /* 6 */ unsigned short flag;
-    /* 8 */ short tc[2];
-    /* 12 */ signed char n[3];
-    /* 15 */ unsigned char a;
+    /* 0x0 */ short ob[3];
+    /* 0x6 */ unsigned short flag;
+    /* 0x8 */ short tc[2];
+    /* 0xC */ signed char n[3];
+    /* 0xF */ unsigned char a;
 } Vtx_tn;
 
 
 typedef union {
-    /* 0 */ Vtx_t v;
-    /* 0 */ Vtx_tn n;
-    /* 0 */ long long force_structure_alignment;
+    /* 0x0 */ Vtx_t v;
+    /* 0x0 */ Vtx_tn n;
+    /* 0x0 */ long long force_structure_alignment;
 } Vtx;
 
 
 typedef struct {
-    /* 0 */ unsigned char flag;
-    /* 1 */ unsigned char v[3];
+    /* 0x0 */ unsigned char flag;
+    /* 0x1 */ unsigned char v[3];
 } Tri;
 
 typedef long Mtx_t[4][4];
 
 
 typedef union {
-    /* 0 */ Mtx_t m;
-    /* 0 */ long long force_structure_alignment;
+    /* 0x0 */ Mtx_t m;
+    /* 0x0 */ long long force_structure_alignment;
 } Mtx;
 
 
 typedef struct {
-    /* 0 */ short vscale[4];
-    /* 8 */ short vtrans[4];
+    /* 0x0 */ short vscale[4];
+    /* 0x8 */ short vtrans[4];
 } Vp_t;
 
 
 typedef union {
-    /* 0 */ Vp_t vp;
-    /* 0 */ long long force_structure_alignment;
+    /* 0x0 */ Vp_t vp;
+    /* 0x0 */ long long force_structure_alignment;
 } Vp;
 
 
 typedef struct {
-    /* 0 */ unsigned char col[3];
-    /* 3 */ unsigned char pad1;
-    /* 4 */ unsigned char colc[3];
-    /* 7 */ unsigned char pad2;
-    /* 8 */ signed char dir[3];
-    /* 11 */ unsigned char pad3;
+    /* 0x0 */ unsigned char col[3];
+    /* 0x3 */ unsigned char pad1;
+    /* 0x4 */ unsigned char colc[3];
+    /* 0x7 */ unsigned char pad2;
+    /* 0x8 */ signed char dir[3];
+    /* 0xB */ unsigned char pad3;
 } Light_t;
 
 
 typedef struct {
-    /* 0 */ unsigned char col[3];
-    /* 3 */ unsigned char pad1;
-    /* 4 */ unsigned char colc[3];
-    /* 7 */ unsigned char pad2;
+    /* 0x0 */ unsigned char col[3];
+    /* 0x3 */ unsigned char pad1;
+    /* 0x4 */ unsigned char colc[3];
+    /* 0x7 */ unsigned char pad2;
 } Ambient_t;
 
 
 typedef struct {
-    /* 0 */ int x1;
-    /* 4 */ int y1;
-    /* 8 */ int x2;
-    /* 12 */ int y2;
+    /* 0x0 */ int x1;
+    /* 0x4 */ int y1;
+    /* 0x8 */ int x2;
+    /* 0xC */ int y2;
 } Hilite_t;
 
 
 typedef union {
-    /* 0 */ Light_t l;
-    /* 0 */ long long force_structure_alignment[2];
+    /* 0x0 */ Light_t l;
+    /* 0x0 */ long long force_structure_alignment[2];
 } Light;
 
 
 typedef union {
-    /* 0 */ Ambient_t l;
-    /* 0 */ long long force_structure_alignment[1];
+    /* 0x0 */ Ambient_t l;
+    /* 0x0 */ long long force_structure_alignment[1];
 } Ambient;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[7];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[7];
 } Lightsn;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[1];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[1];
 } Lights0;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[1];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[1];
 } Lights1;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[2];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[2];
 } Lights2;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[3];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[3];
 } Lights3;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[4];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[4];
 } Lights4;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[5];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[5];
 } Lights5;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[6];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[6];
 } Lights6;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[7];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[7];
 } Lights7;
 
 
 typedef struct {
-    /* 0 */ Light l[2];
+    /* 0x0 */ Light l[2];
 } LookAt;
 
 
 typedef union {
-    /* 0 */ Hilite_t h;
-    /* 0 */ long force_structure_alignment[4];
+    /* 0x0 */ Hilite_t h;
+    /* 0x0 */ long force_structure_alignment[4];
 } Hilite;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int par : 8;
-    /* 2 */ unsigned int len : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int par : 8;
+    /* 0x2 */ unsigned int len : 16;
+    /* 0x4 */ unsigned int addr;
 } Gdma;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad : 24;
-    /* 4 */ Tri tri;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad : 24;
+    /* 0x4 */ Tri tri;
 } Gtri;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad1 : 24;
-    /* 4 */ int pad2 : 24;
-    /* 7 */ unsigned char param : 8;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad1 : 24;
+    /* 0x4 */ int pad2 : 24;
+    /* 0x7 */ unsigned char param : 8;
 } Gpopmtx;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad0 : 8;
-    /* 2 */ int mw_index : 8;
-    /* 3 */ int number : 8;
-    /* 4 */ int pad1 : 8;
-    /* 5 */ int base : 24;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad0 : 8;
+    /* 0x2 */ int mw_index : 8;
+    /* 0x3 */ int number : 8;
+    /* 0x4 */ int pad1 : 8;
+    /* 0x5 */ int base : 24;
 } Gsegment;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad0 : 8;
-    /* 2 */ int sft : 8;
-    /* 3 */ int len : 8;
-    /* 4 */ unsigned int data : 32;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad0 : 8;
+    /* 0x2 */ int sft : 8;
+    /* 0x3 */ int len : 8;
+    /* 0x4 */ unsigned int data : 32;
 } GsetothermodeL;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad0 : 8;
-    /* 2 */ int sft : 8;
-    /* 3 */ int len : 8;
-    /* 4 */ unsigned int data : 32;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad0 : 8;
+    /* 0x2 */ int sft : 8;
+    /* 0x3 */ int len : 8;
+    /* 0x4 */ unsigned int data : 32;
 } GsetothermodeH;
 
 
 typedef struct {
-    /* 0 */ unsigned char cmd;
-    /* 1 */ unsigned char lodscale;
-    /* 2 */ unsigned char tile;
-    /* 3 */ unsigned char on;
-    /* 4 */ unsigned short s;
-    /* 6 */ unsigned short t;
+    /* 0x0 */ unsigned char cmd;
+    /* 0x1 */ unsigned char lodscale;
+    /* 0x2 */ unsigned char tile;
+    /* 0x3 */ unsigned char on;
+    /* 0x4 */ unsigned short s;
+    /* 0x6 */ unsigned short t;
 } Gtexture;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad : 24;
-    /* 4 */ Tri line;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad : 24;
+    /* 0x4 */ Tri line;
 } Gline3D;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad1 : 24;
-    /* 4 */ short pad2;
-    /* 6 */ short scale;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad1 : 24;
+    /* 0x4 */ short pad2;
+    /* 0x6 */ short scale;
 } Gperspnorm;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int fmt : 3;
-    /* 1 */ unsigned int siz : 2;
-    /* 1 */ unsigned int pad : 7;
-    /* 2 */ unsigned int wd : 12;
-    /* 4 */ unsigned int dram;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int fmt : 3;
+    /* 0x1 */ unsigned int siz : 2;
+    /* 0x1 */ unsigned int pad : 7;
+    /* 0x2 */ unsigned int wd : 12;
+    /* 0x4 */ unsigned int dram;
 } Gsetimg;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int muxs0 : 24;
-    /* 4 */ unsigned int muxs1 : 32;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int muxs0 : 24;
+    /* 0x4 */ unsigned int muxs1 : 32;
 } Gsetcombine;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned char pad;
-    /* 2 */ unsigned char prim_min_level;
-    /* 3 */ unsigned char prim_level;
-    /* 4 */ unsigned long color;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned char pad;
+    /* 0x2 */ unsigned char prim_min_level;
+    /* 0x3 */ unsigned char prim_level;
+    /* 0x4 */ unsigned long color;
 } Gsetcolor;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int x0 : 10;
-    /* 2 */ int x0frac : 2;
-    /* 2 */ int y0 : 10;
-    /* 3 */ int y0frac : 2;
-    /* 4 */ unsigned int pad : 8;
-    /* 5 */ int x1 : 10;
-    /* 6 */ int x1frac : 2;
-    /* 6 */ int y1 : 10;
-    /* 7 */ int y1frac : 2;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int x0 : 10;
+    /* 0x2 */ int x0frac : 2;
+    /* 0x2 */ int y0 : 10;
+    /* 0x3 */ int y0frac : 2;
+    /* 0x4 */ unsigned int pad : 8;
+    /* 0x5 */ int x1 : 10;
+    /* 0x6 */ int x1frac : 2;
+    /* 0x6 */ int y1 : 10;
+    /* 0x7 */ int y1frac : 2;
 } Gfillrect;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int fmt : 3;
-    /* 1 */ unsigned int siz : 2;
-    /* 1 */ unsigned int pad0 : 1;
-    /* 1 */ unsigned int line : 9;
-    /* 2 */ unsigned int tmem : 9;
-    /* 4 */ unsigned int pad1 : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int palette : 4;
-    /* 5 */ unsigned int ct : 1;
-    /* 5 */ unsigned int mt : 1;
-    /* 5 */ unsigned int maskt : 4;
-    /* 6 */ unsigned int shiftt : 4;
-    /* 6 */ unsigned int cs : 1;
-    /* 6 */ unsigned int ms : 1;
-    /* 7 */ unsigned int masks : 4;
-    /* 7 */ unsigned int shifts : 4;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int fmt : 3;
+    /* 0x1 */ unsigned int siz : 2;
+    /* 0x1 */ unsigned int pad0 : 1;
+    /* 0x1 */ unsigned int line : 9;
+    /* 0x2 */ unsigned int tmem : 9;
+    /* 0x4 */ unsigned int pad1 : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int palette : 4;
+    /* 0x5 */ unsigned int ct : 1;
+    /* 0x5 */ unsigned int mt : 1;
+    /* 0x5 */ unsigned int maskt : 4;
+    /* 0x6 */ unsigned int shiftt : 4;
+    /* 0x6 */ unsigned int cs : 1;
+    /* 0x6 */ unsigned int ms : 1;
+    /* 0x7 */ unsigned int masks : 4;
+    /* 0x7 */ unsigned int shifts : 4;
 } Gsettile;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int sl : 12;
-    /* 2 */ unsigned int tl : 12;
-    /* 4 */ int pad : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int sh : 12;
-    /* 6 */ unsigned int th : 12;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int sl : 12;
+    /* 0x2 */ unsigned int tl : 12;
+    /* 0x4 */ int pad : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int sh : 12;
+    /* 0x6 */ unsigned int th : 12;
 } Gloadtile;
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int sl : 12;
-    /* 2 */ unsigned int tl : 12;
-    /* 4 */ int pad : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int sh : 12;
-    /* 6 */ unsigned int th : 12;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int sl : 12;
+    /* 0x2 */ unsigned int tl : 12;
+    /* 0x4 */ int pad : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int sh : 12;
+    /* 0x6 */ unsigned int th : 12;
 } Gloadblock;
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int sl : 12;
-    /* 2 */ unsigned int tl : 12;
-    /* 4 */ int pad : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int sh : 12;
-    /* 6 */ unsigned int th : 12;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int sl : 12;
+    /* 0x2 */ unsigned int tl : 12;
+    /* 0x4 */ int pad : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int sh : 12;
+    /* 0x6 */ unsigned int th : 12;
 } Gsettilesize;
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int sl : 12;
-    /* 2 */ unsigned int tl : 12;
-    /* 4 */ int pad : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int sh : 12;
-    /* 6 */ unsigned int th : 12;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int sl : 12;
+    /* 0x2 */ unsigned int tl : 12;
+    /* 0x4 */ int pad : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int sh : 12;
+    /* 0x6 */ unsigned int th : 12;
 } Gloadtlut;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int xl : 12;
-    /* 2 */ unsigned int yl : 12;
-    /* 4 */ unsigned int pad1 : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int xh : 12;
-    /* 6 */ unsigned int yh : 12;
-    /* 8 */ unsigned int s : 16;
-    /* 10 */ unsigned int t : 16;
-    /* 12 */ unsigned int dsdx : 16;
-    /* 14 */ unsigned int dtdy : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int xl : 12;
+    /* 0x2 */ unsigned int yl : 12;
+    /* 0x4 */ unsigned int pad1 : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int xh : 12;
+    /* 0x6 */ unsigned int yh : 12;
+    /* 0x8 */ unsigned int s : 16;
+    /* 0xA */ unsigned int t : 16;
+    /* 0xC */ unsigned int dsdx : 16;
+    /* 0xE */ unsigned int dtdy : 16;
 } Gtexrect;
 
 
 typedef struct {
-    /* 0 */ unsigned long w0;
-    /* 4 */ unsigned long w1;
-    /* 8 */ unsigned long w2;
-    /* 12 */ unsigned long w3;
+    /* 0x0 */ unsigned long w0;
+    /* 0x4 */ unsigned long w1;
+    /* 0x8 */ unsigned long w2;
+    /* 0xC */ unsigned long w3;
 } TexRect;
 
 
 typedef struct {
-    /* 0 */ unsigned int w0;
-    /* 4 */ unsigned int w1;
+    /* 0x0 */ unsigned int w0;
+    /* 0x4 */ unsigned int w1;
 } Gwords;
 
 
 typedef union {
-    /* 0 */ Gwords words;
-    /* 0 */ Gdma dma;
-    /* 0 */ Gtri tri;
-    /* 0 */ Gline3D line;
-    /* 0 */ Gpopmtx popmtx;
-    /* 0 */ Gsegment segment;
-    /* 0 */ GsetothermodeH setothermodeH;
-    /* 0 */ GsetothermodeL setothermodeL;
-    /* 0 */ Gtexture texture;
-    /* 0 */ Gperspnorm perspnorm;
-    /* 0 */ Gsetimg setimg;
-    /* 0 */ Gsetcombine setcombine;
-    /* 0 */ Gsetcolor setcolor;
-    /* 0 */ Gfillrect fillrect;
-    /* 0 */ Gsettile settile;
-    /* 0 */ Gloadtile loadtile;
-    /* 0 */ Gloadtile settilesize;
-    /* 0 */ Gloadtile loadtlut;
-    /* 0 */ long long force_structure_alignment;
+    /* 0x0 */ Gwords words;
+    /* 0x0 */ Gdma dma;
+    /* 0x0 */ Gtri tri;
+    /* 0x0 */ Gline3D line;
+    /* 0x0 */ Gpopmtx popmtx;
+    /* 0x0 */ Gsegment segment;
+    /* 0x0 */ GsetothermodeH setothermodeH;
+    /* 0x0 */ GsetothermodeL setothermodeL;
+    /* 0x0 */ Gtexture texture;
+    /* 0x0 */ Gperspnorm perspnorm;
+    /* 0x0 */ Gsetimg setimg;
+    /* 0x0 */ Gsetcombine setcombine;
+    /* 0x0 */ Gsetcolor setcolor;
+    /* 0x0 */ Gfillrect fillrect;
+    /* 0x0 */ Gsettile settile;
+    /* 0x0 */ Gloadtile loadtile;
+    /* 0x0 */ Gloadtile settilesize;
+    /* 0x0 */ Gloadtile loadtlut;
+    /* 0x0 */ long long force_structure_alignment;
 } Gfx;
 
 // end file /f/release1/usr/include/PR/gbi.h
@@ -3541,180 +3541,180 @@ FileDescriptor(adr=0, rss=1, issBase=2131, cbSs=896, isymBase=344, csym=164, ili
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int gain : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int gain : 16;
+    /* 0x4 */ unsigned int addr;
 } Aadpcm;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int gain : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int gain : 16;
+    /* 0x4 */ unsigned int addr;
 } Apolef;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int pad1 : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int pad1 : 16;
+    /* 0x4 */ unsigned int addr;
 } Aenvelope;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 8;
-    /* 2 */ unsigned int dmem : 16;
-    /* 4 */ unsigned int pad2 : 16;
-    /* 6 */ unsigned int count : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 8;
+    /* 0x2 */ unsigned int dmem : 16;
+    /* 0x4 */ unsigned int pad2 : 16;
+    /* 0x6 */ unsigned int count : 16;
 } Aclearbuff;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 8;
-    /* 2 */ unsigned int pad2 : 16;
-    /* 4 */ unsigned int inL : 16;
-    /* 6 */ unsigned int inR : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 8;
+    /* 0x2 */ unsigned int pad2 : 16;
+    /* 0x4 */ unsigned int inL : 16;
+    /* 0x6 */ unsigned int inR : 16;
 } Ainterleave;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 24;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 24;
+    /* 0x4 */ unsigned int addr;
 } Aloadbuff;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int pad1 : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int pad1 : 16;
+    /* 0x4 */ unsigned int addr;
 } Aenvmixer;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int gain : 16;
-    /* 4 */ unsigned int dmemi : 16;
-    /* 6 */ unsigned int dmemo : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int gain : 16;
+    /* 0x4 */ unsigned int dmemi : 16;
+    /* 0x6 */ unsigned int dmemo : 16;
 } Amixer;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int dmem2 : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int dmem2 : 16;
+    /* 0x4 */ unsigned int addr;
 } Apan;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int pitch : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int pitch : 16;
+    /* 0x4 */ unsigned int addr;
 } Aresample;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int pad1 : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int pad1 : 16;
+    /* 0x4 */ unsigned int addr;
 } Areverb;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 24;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 24;
+    /* 0x4 */ unsigned int addr;
 } Asavebuff;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 24;
-    /* 4 */ unsigned int pad2 : 2;
-    /* 4 */ unsigned int number : 4;
-    /* 4 */ unsigned int base : 24;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 24;
+    /* 0x4 */ unsigned int pad2 : 2;
+    /* 0x4 */ unsigned int number : 4;
+    /* 0x4 */ unsigned int base : 24;
 } Asegment;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int dmemin : 16;
-    /* 4 */ unsigned int dmemout : 16;
-    /* 6 */ unsigned int count : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int dmemin : 16;
+    /* 0x4 */ unsigned int dmemout : 16;
+    /* 0x6 */ unsigned int count : 16;
 } Asetbuff;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int vol : 16;
-    /* 4 */ unsigned int voltgt : 16;
-    /* 6 */ unsigned int volrate : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int vol : 16;
+    /* 0x4 */ unsigned int voltgt : 16;
+    /* 0x6 */ unsigned int volrate : 16;
 } Asetvol;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 8;
-    /* 2 */ unsigned int dmemin : 16;
-    /* 4 */ unsigned int dmemout : 16;
-    /* 6 */ unsigned int count : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 8;
+    /* 0x2 */ unsigned int dmemin : 16;
+    /* 0x4 */ unsigned int dmemout : 16;
+    /* 0x6 */ unsigned int count : 16;
 } Admemmove;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 8;
-    /* 2 */ unsigned int count : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 8;
+    /* 0x2 */ unsigned int count : 16;
+    /* 0x4 */ unsigned int addr;
 } Aloadadpcm;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 8;
-    /* 2 */ unsigned int pad2 : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 8;
+    /* 0x2 */ unsigned int pad2 : 16;
+    /* 0x4 */ unsigned int addr;
 } Asetloop;
 
 
 typedef struct {
-    /* 0 */ unsigned int w0;
-    /* 4 */ unsigned int w1;
+    /* 0x0 */ unsigned int w0;
+    /* 0x4 */ unsigned int w1;
 } Awords;
 
 
 typedef union {
-    /* 0 */ Awords words;
-    /* 0 */ Aadpcm adpcm;
-    /* 0 */ Apolef polef;
-    /* 0 */ Aclearbuff clearbuff;
-    /* 0 */ Aenvelope envelope;
-    /* 0 */ Ainterleave interleave;
-    /* 0 */ Aloadbuff loadbuff;
-    /* 0 */ Aenvmixer envmixer;
-    /* 0 */ Aresample resample;
-    /* 0 */ Areverb reverb;
-    /* 0 */ Asavebuff savebuff;
-    /* 0 */ Asegment segment;
-    /* 0 */ Asetbuff setbuff;
-    /* 0 */ Asetvol setvol;
-    /* 0 */ Admemmove dmemmove;
-    /* 0 */ Aloadadpcm loadadpcm;
-    /* 0 */ Amixer mixer;
-    /* 0 */ Asetloop setloop;
-    /* 0 */ long long force_union_align;
+    /* 0x0 */ Awords words;
+    /* 0x0 */ Aadpcm adpcm;
+    /* 0x0 */ Apolef polef;
+    /* 0x0 */ Aclearbuff clearbuff;
+    /* 0x0 */ Aenvelope envelope;
+    /* 0x0 */ Ainterleave interleave;
+    /* 0x0 */ Aloadbuff loadbuff;
+    /* 0x0 */ Aenvmixer envmixer;
+    /* 0x0 */ Aresample resample;
+    /* 0x0 */ Areverb reverb;
+    /* 0x0 */ Asavebuff savebuff;
+    /* 0x0 */ Asegment segment;
+    /* 0x0 */ Asetbuff setbuff;
+    /* 0x0 */ Asetvol setvol;
+    /* 0x0 */ Admemmove dmemmove;
+    /* 0x0 */ Aloadadpcm loadadpcm;
+    /* 0x0 */ Amixer mixer;
+    /* 0x0 */ Asetloop setloop;
+    /* 0x0 */ long long force_union_align;
 } Acmd;
 
 typedef short ADPCM_STATE[16];
@@ -7642,8 +7642,8 @@ typedef u8 ALPan;
 
 
 typedef struct {
-    /* 0 */ ALLink* next;
-    /* 4 */ ALLink* prev;
+    /* 0x0 */ ALLink* next;
+    /* 0x4 */ ALLink* prev;
 } ALLink;
 
 typedef s32 (*ALDMAproc)(... /* ECOFF does not store param types */);
@@ -7652,10 +7652,10 @@ typedef ALDMAproc (*ALDMANew)(... /* ECOFF does not store param types */);
 
 
 typedef struct {
-    /* 0 */ u8* base;
-    /* 4 */ u8* cur;
-    /* 8 */ s32 len;
-    /* 12 */ s32 count;
+    /* 0x0 */ u8* base;
+    /* 0x4 */ u8* cur;
+    /* 0x8 */ s32 len;
+    /* 0xC */ s32 count;
 } ALHeap;
 
 typedef u8 ALFxId;
@@ -7665,188 +7665,188 @@ typedef void* ALFxRef;
 
 
 typedef struct {
-    /* 0 */ s32 order;
-    /* 4 */ s32 npredictors;
-    /* 8 */ s16 book[1];
+    /* 0x0 */ s32 order;
+    /* 0x4 */ s32 npredictors;
+    /* 0x8 */ s16 book[1];
 } ALADPCMBook;
 
 
 typedef struct {
-    /* 0 */ u32 start;
-    /* 4 */ u32 end;
-    /* 8 */ u32 count;
-    /* 12 */ ADPCM_STATE state;
+    /* 0x0 */ u32 start;
+    /* 0x4 */ u32 end;
+    /* 0x8 */ u32 count;
+    /* 0xC */ ADPCM_STATE state;
 } ALADPCMloop;
 
 
 typedef struct {
-    /* 0 */ u32 start;
-    /* 4 */ u32 end;
-    /* 8 */ u32 count;
+    /* 0x0 */ u32 start;
+    /* 0x4 */ u32 end;
+    /* 0x8 */ u32 count;
 } ALRawLoop;
 
 
 typedef struct {
-    /* 0 */ ALMicroTime attackTime;
-    /* 4 */ ALMicroTime decayTime;
-    /* 8 */ ALMicroTime releaseTime;
-    /* 12 */ u8 attackVolume;
-    /* 13 */ u8 decayVolume;
+    /* 0x0 */ ALMicroTime attackTime;
+    /* 0x4 */ ALMicroTime decayTime;
+    /* 0x8 */ ALMicroTime releaseTime;
+    /* 0xC */ u8 attackVolume;
+    /* 0xD */ u8 decayVolume;
 } ALEnvelope;
 
 
 typedef struct {
-    /* 0 */ u8 velocityMin;
-    /* 1 */ u8 velocityMax;
-    /* 2 */ u8 keyMin;
-    /* 3 */ u8 keyMax;
-    /* 4 */ u8 keyBase;
-    /* 5 */ u8 detune;
+    /* 0x0 */ u8 velocityMin;
+    /* 0x1 */ u8 velocityMax;
+    /* 0x2 */ u8 keyMin;
+    /* 0x3 */ u8 keyMax;
+    /* 0x4 */ u8 keyBase;
+    /* 0x5 */ u8 detune;
 } ALKeyMap;
 
 
 typedef struct {
-    /* 0 */ ALADPCMloop* loop;
-    /* 4 */ ALADPCMBook* book;
+    /* 0x0 */ ALADPCMloop* loop;
+    /* 0x4 */ ALADPCMBook* book;
 } ALADPCMWaveInfo;
 
 
 typedef struct {
-    /* 0 */ ALRawLoop* loop;
+    /* 0x0 */ ALRawLoop* loop;
 } ALRAWWaveInfo;
 
 
 typedef struct {
-    /* 0 */ u8* base;
-    /* 4 */ s32 len;
-    /* 8 */ u8 type;
-    /* 9 */ u8 flags;
-    /* 12 */ union {
-        /* 0 */ ALADPCMWaveInfo adpcmWave;
-        /* 0 */ ALRAWWaveInfo rawWave;
+    /* 0x0 */ u8* base;
+    /* 0x4 */ s32 len;
+    /* 0x8 */ u8 type;
+    /* 0x9 */ u8 flags;
+    /* 0xC */ union {
+        /* 0x0 */ ALADPCMWaveInfo adpcmWave;
+        /* 0x0 */ ALRAWWaveInfo rawWave;
     } waveInfo;
 } ALWaveTable;
 
 
 typedef struct {
-    /* 0 */ ALEnvelope* envelope;
-    /* 4 */ ALKeyMap* keyMap;
-    /* 8 */ ALWaveTable* wavetable;
-    /* 12 */ ALPan samplePan;
-    /* 13 */ u8 sampleVolume;
-    /* 14 */ u8 flags;
+    /* 0x0 */ ALEnvelope* envelope;
+    /* 0x4 */ ALKeyMap* keyMap;
+    /* 0x8 */ ALWaveTable* wavetable;
+    /* 0xC */ ALPan samplePan;
+    /* 0xD */ u8 sampleVolume;
+    /* 0xE */ u8 flags;
 } ALSound;
 
 
 typedef struct {
-    /* 0 */ u8 volume;
-    /* 1 */ ALPan pan;
-    /* 2 */ u8 priority;
-    /* 3 */ u8 flags;
-    /* 4 */ u8 tremType;
-    /* 5 */ u8 tremRate;
-    /* 6 */ u8 tremDepth;
-    /* 7 */ u8 tremDelay;
-    /* 8 */ u8 vibType;
-    /* 9 */ u8 vibRate;
-    /* 10 */ u8 vibDepth;
-    /* 11 */ u8 vibDelay;
-    /* 12 */ s16 bendRange;
-    /* 14 */ s16 soundCount;
-    /* 16 */ ALSound* soundArray[1];
+    /* 0x0 */ u8 volume;
+    /* 0x1 */ ALPan pan;
+    /* 0x2 */ u8 priority;
+    /* 0x3 */ u8 flags;
+    /* 0x4 */ u8 tremType;
+    /* 0x5 */ u8 tremRate;
+    /* 0x6 */ u8 tremDepth;
+    /* 0x7 */ u8 tremDelay;
+    /* 0x8 */ u8 vibType;
+    /* 0x9 */ u8 vibRate;
+    /* 0xA */ u8 vibDepth;
+    /* 0xB */ u8 vibDelay;
+    /* 0xC */ s16 bendRange;
+    /* 0xE */ s16 soundCount;
+    /* 0x10 */ ALSound* soundArray[1];
 } ALInstrument;
 
 
 typedef struct {
-    /* 0 */ s16 instCount;
-    /* 2 */ u8 flags;
-    /* 3 */ u8 pad;
-    /* 4 */ s32 sampleRate;
-    /* 8 */ ALInstrument* percussion;
-    /* 12 */ ALInstrument* instArray[1];
+    /* 0x0 */ s16 instCount;
+    /* 0x2 */ u8 flags;
+    /* 0x3 */ u8 pad;
+    /* 0x4 */ s32 sampleRate;
+    /* 0x8 */ ALInstrument* percussion;
+    /* 0xC */ ALInstrument* instArray[1];
 } ALBank;
 
 
 typedef struct {
-    /* 0 */ s16 revision;
-    /* 2 */ s16 bankCount;
-    /* 4 */ ALBank* bankArray[1];
+    /* 0x0 */ s16 revision;
+    /* 0x2 */ s16 bankCount;
+    /* 0x4 */ ALBank* bankArray[1];
 } ALBankFile;
 
 
 typedef struct {
-    /* 0 */ u8* offset;
-    /* 4 */ s32 len;
+    /* 0x0 */ u8* offset;
+    /* 0x4 */ s32 len;
 } ALSeqData;
 
 
 typedef struct {
-    /* 0 */ s16 revision;
-    /* 2 */ s16 seqCount;
-    /* 4 */ ALSeqData seqArray[1];
+    /* 0x0 */ s16 revision;
+    /* 0x2 */ s16 seqCount;
+    /* 0x4 */ ALSeqData seqArray[1];
 } ALSeqFile;
 
 typedef ALMicroTime (*ALVoiceHandler)(... /* ECOFF does not store param types */);
 
 
 typedef struct {
-    /* 0 */ s32 maxVVoices;
-    /* 4 */ s32 maxPVoices;
-    /* 8 */ s32 maxUpdates;
-    /* 12 */ s32 maxFXbusses;
-    /* 16 */ void* dmaproc;
-    /* 20 */ ALHeap* heap;
-    /* 24 */ s32 outputRate;
-    /* 28 */ ALFxId fxType;
-    /* 32 */ s32* params;
+    /* 0x0 */ s32 maxVVoices;
+    /* 0x4 */ s32 maxPVoices;
+    /* 0x8 */ s32 maxUpdates;
+    /* 0xC */ s32 maxFXbusses;
+    /* 0x10 */ void* dmaproc;
+    /* 0x14 */ ALHeap* heap;
+    /* 0x18 */ s32 outputRate;
+    /* 0x1C */ ALFxId fxType;
+    /* 0x20 */ s32* params;
 } ALSynConfig;
 
 
 typedef struct {
-    /* 0 */ ALPlayer* next;
-    /* 4 */ void* clientData;
-    /* 8 */ ALVoiceHandler handler;
-    /* 12 */ ALMicroTime callTime;
-    /* 16 */ s32 samplesLeft;
+    /* 0x0 */ ALPlayer* next;
+    /* 0x4 */ void* clientData;
+    /* 0x8 */ ALVoiceHandler handler;
+    /* 0xC */ ALMicroTime callTime;
+    /* 0x10 */ s32 samplesLeft;
 } ALPlayer;
 
 
 typedef struct {
-    /* 0 */ ALLink node;
-    /* 12 */ ALWaveTable* table;
-    /* 16 */ void* clientPrivate;
-    /* 20 */ s16 state;
-    /* 22 */ s16 priority;
-    /* 24 */ s16 fxBus;
-    /* 26 */ s16 unityPitch;
+    /* 0x0 */ ALLink node;
+    /* 0xC */ ALWaveTable* table;
+    /* 0x10 */ void* clientPrivate;
+    /* 0x14 */ s16 state;
+    /* 0x16 */ s16 priority;
+    /* 0x18 */ s16 fxBus;
+    /* 0x1A */ s16 unityPitch;
 } ALVoice;
 
 
 typedef struct {
-    /* 0 */ s16 priority;
-    /* 2 */ s16 fxBus;
-    /* 4 */ u8 unityPitch;
+    /* 0x0 */ s16 priority;
+    /* 0x2 */ s16 fxBus;
+    /* 0x4 */ u8 unityPitch;
 } ALVoiceConfig;
 
 
 typedef struct {
-    /* 0 */ ALPlayer* head;
-    /* 4 */ ALLink pFreeList;
-    /* 12 */ ALLink pAllocList;
-    /* 20 */ ALLink pLameList;
-    /* 28 */ s32 paramSamples;
-    /* 32 */ s32 curSamples;
-    /* 36 */ ALDMANew dma;
-    /* 40 */ ALHeap* heap;
-    /* 60 */ s32 numPVoices;
-    /* 64 */ s32 maxAuxBusses;
-    /* 68 */ s32 outputRate;
-    /* 72 */ s32 maxOutSamples;
+    /* 0x0 */ ALPlayer* head;
+    /* 0x4 */ ALLink pFreeList;
+    /* 0xC */ ALLink pAllocList;
+    /* 0x14 */ ALLink pLameList;
+    /* 0x1C */ s32 paramSamples;
+    /* 0x20 */ s32 curSamples;
+    /* 0x24 */ ALDMANew dma;
+    /* 0x28 */ ALHeap* heap;
+    /* 0x3C */ s32 numPVoices;
+    /* 0x40 */ s32 maxAuxBusses;
+    /* 0x44 */ s32 outputRate;
+    /* 0x48 */ s32 maxOutSamples;
 } ALSynth;
 
 
 typedef struct {
-    /* 0 */ ALSynth drvr;
+    /* 0x0 */ ALSynth drvr;
 } ALGlobals;
 
 
@@ -7855,202 +7855,202 @@ typedef struct {
 
 
 typedef struct {
-    /* 0 */ u8* curPtr;
-    /* 4 */ s32 lastTicks;
-    /* 8 */ s16 lastStatus;
+    /* 0x0 */ u8* curPtr;
+    /* 0x4 */ s32 lastTicks;
+    /* 0x8 */ s16 lastStatus;
 } ALSeqMarker;
 
 
 typedef struct {
-    /* 0 */ s32 ticks;
-    /* 4 */ u8 status;
-    /* 5 */ u8 byte1;
-    /* 6 */ u8 byte2;
-    /* 8 */ u32 duration;
+    /* 0x0 */ s32 ticks;
+    /* 0x4 */ u8 status;
+    /* 0x5 */ u8 byte1;
+    /* 0x6 */ u8 byte2;
+    /* 0x8 */ u32 duration;
 } ALMIDIEvent;
 
 
 typedef struct {
-    /* 0 */ s32 ticks;
-    /* 4 */ u8 status;
-    /* 5 */ u8 type;
-    /* 6 */ u8 len;
-    /* 7 */ u8 byte1;
-    /* 8 */ u8 byte2;
-    /* 9 */ u8 byte3;
+    /* 0x0 */ s32 ticks;
+    /* 0x4 */ u8 status;
+    /* 0x5 */ u8 type;
+    /* 0x6 */ u8 len;
+    /* 0x7 */ u8 byte1;
+    /* 0x8 */ u8 byte2;
+    /* 0x9 */ u8 byte3;
 } ALTempoEvent;
 
 
 typedef struct {
-    /* 0 */ s32 ticks;
-    /* 4 */ u8 status;
-    /* 5 */ u8 type;
-    /* 6 */ u8 len;
+    /* 0x0 */ s32 ticks;
+    /* 0x4 */ u8 status;
+    /* 0x5 */ u8 type;
+    /* 0x6 */ u8 len;
 } ALEndEvent;
 
 
 typedef struct {
-    /* 0 */ ALVoice* voice;
+    /* 0x0 */ ALVoice* voice;
 } ALNoteEvent;
 
 
 typedef struct {
-    /* 0 */ ALVoice* voice;
-    /* 4 */ ALMicroTime delta;
-    /* 8 */ u8 vol;
+    /* 0x0 */ ALVoice* voice;
+    /* 0x4 */ ALMicroTime delta;
+    /* 0x8 */ u8 vol;
 } ALVolumeEvent;
 
 
 typedef struct {
-    /* 0 */ s16 vol;
+    /* 0x0 */ s16 vol;
 } ALSeqpVolEvent;
 
 
 typedef struct {
-    /* 0 */ ALSeqMarker* start;
-    /* 4 */ ALSeqMarker* end;
-    /* 8 */ s32 count;
+    /* 0x0 */ ALSeqMarker* start;
+    /* 0x4 */ ALSeqMarker* end;
+    /* 0x8 */ s32 count;
 } ALSeqpLoopEvent;
 
 
 typedef struct {
-    /* 0 */ u8 chan;
-    /* 1 */ u8 priority;
+    /* 0x0 */ u8 chan;
+    /* 0x1 */ u8 priority;
 } ALSeqpPriorityEvent;
 
 
 typedef struct {
-    /* 0 */ void* seq;
+    /* 0x0 */ void* seq;
 } ALSeqpSeqEvent;
 
 
 typedef struct {
-    /* 0 */ ALBank* bank;
+    /* 0x0 */ ALBank* bank;
 } ALSeqpBankEvent;
 
 
 typedef struct {
-    /* 4 */ void* oscState;
-    /* 8 */ u8 chan;
+    /* 0x4 */ void* oscState;
+    /* 0x8 */ u8 chan;
 } ALOscEvent;
 
 
 typedef struct {
-    /* 0 */ s16 type;
-    /* 4 */ union {
-        /* 0 */ ALMIDIEvent midi;
-        /* 0 */ ALTempoEvent tempo;
-        /* 0 */ ALEndEvent end;
-        /* 0 */ ALNoteEvent note;
-        /* 0 */ ALVolumeEvent vol;
-        /* 0 */ ALSeqpLoopEvent loop;
-        /* 0 */ ALSeqpVolEvent spvol;
-        /* 0 */ ALSeqpPriorityEvent sppriority;
-        /* 0 */ ALSeqpSeqEvent spseq;
-        /* 0 */ ALSeqpBankEvent spbank;
-        /* 0 */ ALOscEvent osc;
+    /* 0x0 */ s16 type;
+    /* 0x4 */ union {
+        /* 0x0 */ ALMIDIEvent midi;
+        /* 0x0 */ ALTempoEvent tempo;
+        /* 0x0 */ ALEndEvent end;
+        /* 0x0 */ ALNoteEvent note;
+        /* 0x0 */ ALVolumeEvent vol;
+        /* 0x0 */ ALSeqpLoopEvent loop;
+        /* 0x0 */ ALSeqpVolEvent spvol;
+        /* 0x0 */ ALSeqpPriorityEvent sppriority;
+        /* 0x0 */ ALSeqpSeqEvent spseq;
+        /* 0x0 */ ALSeqpBankEvent spbank;
+        /* 0x0 */ ALOscEvent osc;
     } msg;
 } ALEvent;
 
 
 typedef struct {
-    /* 0 */ ALLink node;
-    /* 8 */ ALMicroTime delta;
-    /* 12 */ ALEvent evt;
+    /* 0x0 */ ALLink node;
+    /* 0x8 */ ALMicroTime delta;
+    /* 0xC */ ALEvent evt;
 } ALEventListItem;
 
 
 typedef struct {
-    /* 0 */ ALLink freeList;
-    /* 8 */ ALLink allocList;
-    /* 16 */ s32 eventCount;
+    /* 0x0 */ ALLink freeList;
+    /* 0x8 */ ALLink allocList;
+    /* 0x10 */ s32 eventCount;
 } ALEventQueue;
 
 
 typedef struct {
-    /* 0 */ ALVoiceState* next;
-    /* 4 */ ALVoice voice;
-    /* 32 */ ALSound* sound;
-    /* 36 */ ALMicroTime envEndTime;
-    /* 40 */ f32 pitch;
-    /* 44 */ f32 vibrato;
-    /* 48 */ u8 envGain;
-    /* 49 */ u8 channel;
-    /* 50 */ u8 key;
-    /* 51 */ u8 velocity;
-    /* 52 */ u8 envPhase;
-    /* 53 */ u8 phase;
-    /* 54 */ u8 tremelo;
-    /* 55 */ u8 flags;
+    /* 0x0 */ ALVoiceState* next;
+    /* 0x4 */ ALVoice voice;
+    /* 0x20 */ ALSound* sound;
+    /* 0x24 */ ALMicroTime envEndTime;
+    /* 0x28 */ f32 pitch;
+    /* 0x2C */ f32 vibrato;
+    /* 0x30 */ u8 envGain;
+    /* 0x31 */ u8 channel;
+    /* 0x32 */ u8 key;
+    /* 0x33 */ u8 velocity;
+    /* 0x34 */ u8 envPhase;
+    /* 0x35 */ u8 phase;
+    /* 0x36 */ u8 tremelo;
+    /* 0x37 */ u8 flags;
 } ALVoiceState;
 
 
 typedef struct {
-    /* 0 */ ALInstrument* instrument;
-    /* 4 */ s16 bendRange;
-    /* 6 */ ALFxId fxId;
-    /* 7 */ ALPan pan;
-    /* 8 */ u8 priority;
-    /* 9 */ u8 vol;
-    /* 10 */ u8 fxmix;
-    /* 11 */ u8 sustain;
-    /* 12 */ f32 pitchBend;
+    /* 0x0 */ ALInstrument* instrument;
+    /* 0x4 */ s16 bendRange;
+    /* 0x6 */ ALFxId fxId;
+    /* 0x7 */ ALPan pan;
+    /* 0x8 */ u8 priority;
+    /* 0x9 */ u8 vol;
+    /* 0xA */ u8 fxmix;
+    /* 0xB */ u8 sustain;
+    /* 0xC */ f32 pitchBend;
 } ALChanState;
 
 
 typedef struct {
-    /* 0 */ u8* base;
-    /* 4 */ u8* trackStart;
-    /* 8 */ u8* curPtr;
-    /* 12 */ s32 lastTicks;
-    /* 16 */ s32 len;
-    /* 20 */ f32 qnpt;
-    /* 24 */ s16 division;
-    /* 26 */ s16 lastStatus;
+    /* 0x0 */ u8* base;
+    /* 0x4 */ u8* trackStart;
+    /* 0x8 */ u8* curPtr;
+    /* 0xC */ s32 lastTicks;
+    /* 0x10 */ s32 len;
+    /* 0x14 */ f32 qnpt;
+    /* 0x18 */ s16 division;
+    /* 0x1A */ s16 lastStatus;
 } ALSeq;
 
 
 typedef struct {
-    /* 0 */ u32 trackOffset[16];
-    /* 64 */ u32 division;
+    /* 0x0 */ u32 trackOffset[16];
+    /* 0x40 */ u32 division;
 } ALCMidiHdr;
 
 
 typedef struct {
-    /* 0 */ ALCMidiHdr* base;
-    /* 4 */ u32 validTracks;
-    /* 8 */ f32 qnpt;
-    /* 12 */ u32 lastTicks;
-    /* 16 */ u32 lastDeltaTicks;
-    /* 20 */ u32 deltaFlag;
-    /* 24 */ u8* curLoc[16];
-    /* 88 */ u8* curBUPtr[16];
-    /* 152 */ u8 curBULen[16];
-    /* 168 */ u8 lastStatus[16];
-    /* 184 */ u32 evtDeltaTicks[16];
+    /* 0x0 */ ALCMidiHdr* base;
+    /* 0x4 */ u32 validTracks;
+    /* 0x8 */ f32 qnpt;
+    /* 0xC */ u32 lastTicks;
+    /* 0x10 */ u32 lastDeltaTicks;
+    /* 0x14 */ u32 deltaFlag;
+    /* 0x18 */ u8* curLoc[16];
+    /* 0x58 */ u8* curBUPtr[16];
+    /* 0x98 */ u8 curBULen[16];
+    /* 0xA8 */ u8 lastStatus[16];
+    /* 0xB8 */ u32 evtDeltaTicks[16];
 } ALCSeq;
 
 
 typedef struct {
-    /* 0 */ u32 validTracks;
-    /* 4 */ s32 lastTicks;
-    /* 8 */ u32 lastDeltaTicks;
-    /* 12 */ u8* curLoc[16];
-    /* 76 */ u8* curBUPtr[16];
-    /* 140 */ u8 curBULen[16];
-    /* 156 */ u8 lastStatus[16];
-    /* 172 */ u32 evtDeltaTicks[16];
+    /* 0x0 */ u32 validTracks;
+    /* 0x4 */ s32 lastTicks;
+    /* 0x8 */ u32 lastDeltaTicks;
+    /* 0xC */ u8* curLoc[16];
+    /* 0x4C */ u8* curBUPtr[16];
+    /* 0x8C */ u8 curBULen[16];
+    /* 0x9C */ u8 lastStatus[16];
+    /* 0xAC */ u32 evtDeltaTicks[16];
 } ALCSeqMarker;
 
 
 typedef struct {
-    /* 0 */ s32 maxVoices;
-    /* 4 */ s32 maxEvents;
-    /* 8 */ u8 maxChannels;
-    /* 12 */ ALHeap* heap;
-    /* 16 */ void* initOsc;
-    /* 20 */ void* updateOsc;
-    /* 24 */ void* stopOsc;
+    /* 0x0 */ s32 maxVoices;
+    /* 0x4 */ s32 maxEvents;
+    /* 0x8 */ u8 maxChannels;
+    /* 0xC */ ALHeap* heap;
+    /* 0x10 */ void* initOsc;
+    /* 0x14 */ void* updateOsc;
+    /* 0x18 */ void* stopOsc;
 } ALSeqpConfig;
 
 typedef ALMicroTime (*ALOscInit)(... /* ECOFF does not store param types */);
@@ -8061,77 +8061,77 @@ typedef void (*ALOscStop)(... /* ECOFF does not store param types */);
 
 
 typedef struct {
-    /* 0 */ ALPlayer node;
-    /* 20 */ ALSynth* drvr;
-    /* 24 */ ALSeq* target;
-    /* 28 */ ALMicroTime curTime;
-    /* 32 */ ALBank* bank;
-    /* 36 */ s32 uspt;
-    /* 40 */ s32 nextDelta;
-    /* 44 */ s32 state;
-    /* 48 */ u16 chanMask;
-    /* 50 */ s16 vol;
-    /* 52 */ u8 maxChannels;
-    /* 56 */ ALEvent nextEvent;
-    /* 72 */ ALEventQueue evtq;
-    /* 92 */ ALMicroTime frameTime;
-    /* 96 */ ALChanState* chanState;
-    /* 100 */ ALVoiceState* vAllocHead;
-    /* 104 */ ALVoiceState* vAllocTail;
-    /* 108 */ ALVoiceState* vFreeList;
-    /* 112 */ ALOscInit initOsc;
-    /* 116 */ ALOscUpdate updateOsc;
-    /* 120 */ ALOscStop stopOsc;
-    /* 124 */ ALSeqMarker* loopStart;
-    /* 128 */ ALSeqMarker* loopEnd;
-    /* 132 */ s32 loopCount;
+    /* 0x0 */ ALPlayer node;
+    /* 0x14 */ ALSynth* drvr;
+    /* 0x18 */ ALSeq* target;
+    /* 0x1C */ ALMicroTime curTime;
+    /* 0x20 */ ALBank* bank;
+    /* 0x24 */ s32 uspt;
+    /* 0x28 */ s32 nextDelta;
+    /* 0x2C */ s32 state;
+    /* 0x30 */ u16 chanMask;
+    /* 0x32 */ s16 vol;
+    /* 0x34 */ u8 maxChannels;
+    /* 0x38 */ ALEvent nextEvent;
+    /* 0x48 */ ALEventQueue evtq;
+    /* 0x5C */ ALMicroTime frameTime;
+    /* 0x60 */ ALChanState* chanState;
+    /* 0x64 */ ALVoiceState* vAllocHead;
+    /* 0x68 */ ALVoiceState* vAllocTail;
+    /* 0x6C */ ALVoiceState* vFreeList;
+    /* 0x70 */ ALOscInit initOsc;
+    /* 0x74 */ ALOscUpdate updateOsc;
+    /* 0x78 */ ALOscStop stopOsc;
+    /* 0x7C */ ALSeqMarker* loopStart;
+    /* 0x80 */ ALSeqMarker* loopEnd;
+    /* 0x84 */ s32 loopCount;
 } ALSeqPlayer;
 
 
 typedef struct {
-    /* 0 */ ALPlayer node;
-    /* 20 */ ALSynth* drvr;
-    /* 24 */ ALCSeq* target;
-    /* 28 */ ALMicroTime curTime;
-    /* 32 */ ALBank* bank;
-    /* 36 */ s32 uspt;
-    /* 40 */ s32 nextDelta;
-    /* 44 */ s32 state;
-    /* 48 */ u16 chanMask;
-    /* 50 */ s16 vol;
-    /* 52 */ u8 maxChannels;
-    /* 56 */ ALEvent nextEvent;
-    /* 72 */ ALEventQueue evtq;
-    /* 92 */ ALMicroTime frameTime;
-    /* 96 */ ALChanState* chanState;
-    /* 100 */ ALVoiceState* vAllocHead;
-    /* 104 */ ALVoiceState* vAllocTail;
-    /* 108 */ ALVoiceState* vFreeList;
-    /* 112 */ ALOscInit initOsc;
-    /* 116 */ ALOscUpdate updateOsc;
-    /* 120 */ ALOscStop stopOsc;
+    /* 0x0 */ ALPlayer node;
+    /* 0x14 */ ALSynth* drvr;
+    /* 0x18 */ ALCSeq* target;
+    /* 0x1C */ ALMicroTime curTime;
+    /* 0x20 */ ALBank* bank;
+    /* 0x24 */ s32 uspt;
+    /* 0x28 */ s32 nextDelta;
+    /* 0x2C */ s32 state;
+    /* 0x30 */ u16 chanMask;
+    /* 0x32 */ s16 vol;
+    /* 0x34 */ u8 maxChannels;
+    /* 0x38 */ ALEvent nextEvent;
+    /* 0x48 */ ALEventQueue evtq;
+    /* 0x5C */ ALMicroTime frameTime;
+    /* 0x60 */ ALChanState* chanState;
+    /* 0x64 */ ALVoiceState* vAllocHead;
+    /* 0x68 */ ALVoiceState* vAllocTail;
+    /* 0x6C */ ALVoiceState* vFreeList;
+    /* 0x70 */ ALOscInit initOsc;
+    /* 0x74 */ ALOscUpdate updateOsc;
+    /* 0x78 */ ALOscStop stopOsc;
 } ALCSPlayer;
 
 
 typedef struct {
-    /* 0 */ s32 maxSounds;
-    /* 4 */ s32 maxEvents;
-    /* 8 */ ALHeap* heap;
+    /* 0x0 */ s32 maxSounds;
+    /* 0x4 */ s32 maxEvents;
+    /* 0x8 */ ALHeap* heap;
 } ALSndpConfig;
 
 
 typedef struct {
-    /* 0 */ ALPlayer node;
-    /* 20 */ ALEventQueue evtq;
-    /* 40 */ ALEvent nextEvent;
-    /* 56 */ ALSynth* drvr;
-    /* 60 */ void* evtList;
-    /* 64 */ s32 target;
-    /* 68 */ void* sndState;
-    /* 72 */ s32 maxSounds;
-    /* 76 */ ALMicroTime frameTime;
-    /* 80 */ ALMicroTime nextDelta;
-    /* 84 */ ALMicroTime curTime;
+    /* 0x0 */ ALPlayer node;
+    /* 0x14 */ ALEventQueue evtq;
+    /* 0x28 */ ALEvent nextEvent;
+    /* 0x38 */ ALSynth* drvr;
+    /* 0x3C */ void* evtList;
+    /* 0x40 */ s32 target;
+    /* 0x44 */ void* sndState;
+    /* 0x48 */ s32 maxSounds;
+    /* 0x4C */ ALMicroTime frameTime;
+    /* 0x50 */ ALMicroTime nextDelta;
+    /* 0x54 */ ALMicroTime curTime;
 } ALSndPlayer;
 
 typedef s16 ALSndId;
@@ -8556,42 +8556,42 @@ typedef enum {
 
 
 typedef struct {
-    /* 0 */ ALVoice voice;
-    /* 28 */ ALSound* sound;
-    /* 32 */ s16 priority;
-    /* 36 */ f32 pitch;
-    /* 40 */ s32 state;
-    /* 44 */ s16 vol;
-    /* 46 */ ALPan pan;
-    /* 47 */ u8 fxMix;
+    /* 0x0 */ ALVoice voice;
+    /* 0x1C */ ALSound* sound;
+    /* 0x20 */ s16 priority;
+    /* 0x24 */ f32 pitch;
+    /* 0x28 */ s32 state;
+    /* 0x2C */ s16 vol;
+    /* 0x2E */ ALPan pan;
+    /* 0x2F */ u8 fxMix;
 } ALSoundState;
 
 
 typedef union {
-    /* 0 */ ALEvent msg;
-    /* 0 */ struct {
-        /* 0 */ s16 type;
-        /* 4 */ ALSoundState* state;
+    /* 0x0 */ ALEvent msg;
+    /* 0x0 */ struct {
+        /* 0x0 */ s16 type;
+        /* 0x4 */ ALSoundState* state;
     } common;
-    /* 0 */ struct {
-        /* 0 */ s16 type;
-        /* 4 */ ALSoundState* state;
-        /* 8 */ s16 vol;
+    /* 0x0 */ struct {
+        /* 0x0 */ s16 type;
+        /* 0x4 */ ALSoundState* state;
+        /* 0x8 */ s16 vol;
     } vol;
-    /* 0 */ struct {
-        /* 0 */ s16 type;
-        /* 4 */ ALSoundState* state;
-        /* 8 */ f32 pitch;
+    /* 0x0 */ struct {
+        /* 0x0 */ s16 type;
+        /* 0x4 */ ALSoundState* state;
+        /* 0x8 */ f32 pitch;
     } pitch;
-    /* 0 */ struct {
-        /* 0 */ s16 type;
-        /* 4 */ ALSoundState* state;
-        /* 8 */ ALPan pan;
+    /* 0x0 */ struct {
+        /* 0x0 */ s16 type;
+        /* 0x4 */ ALSoundState* state;
+        /* 0x8 */ ALPan pan;
     } pan;
-    /* 0 */ struct {
-        /* 0 */ s16 type;
-        /* 4 */ ALSoundState* state;
-        /* 8 */ u8 mix;
+    /* 0x0 */ struct {
+        /* 0x0 */ s16 type;
+        /* 0x4 */ ALSoundState* state;
+        /* 0x8 */ u8 mix;
     } fx;
 } ALSndpEvent;
 
@@ -10189,81 +10189,81 @@ typedef s32 OSId;
 
 
 typedef union {
-    /* 0 */ struct {
-        /* 0 */ f32 f_odd;
-        /* 4 */ f32 f_even;
+    /* 0x0 */ struct {
+        /* 0x0 */ f32 f_odd;
+        /* 0x4 */ f32 f_even;
     } f;
-    /* 0 */ f64 d;
+    /* 0x0 */ f64 d;
 } __OSfp;
 
 
 typedef struct {
-    /* 0 */ u64 at;
-    /* 8 */ u64 v0;
-    /* 16 */ u64 v1;
-    /* 24 */ u64 a0;
-    /* 32 */ u64 a1;
-    /* 40 */ u64 a2;
-    /* 48 */ u64 a3;
-    /* 56 */ u64 t0;
-    /* 64 */ u64 t1;
-    /* 72 */ u64 t2;
-    /* 80 */ u64 t3;
-    /* 88 */ u64 t4;
-    /* 96 */ u64 t5;
-    /* 104 */ u64 t6;
-    /* 112 */ u64 t7;
-    /* 120 */ u64 s0;
-    /* 128 */ u64 s1;
-    /* 136 */ u64 s2;
-    /* 144 */ u64 s3;
-    /* 152 */ u64 s4;
-    /* 160 */ u64 s5;
-    /* 168 */ u64 s6;
-    /* 176 */ u64 s7;
-    /* 184 */ u64 t8;
-    /* 192 */ u64 t9;
-    /* 200 */ u64 gp;
-    /* 208 */ u64 sp;
-    /* 216 */ u64 s8;
-    /* 224 */ u64 ra;
-    /* 232 */ u64 lo;
-    /* 240 */ u64 hi;
-    /* 248 */ u32 sr;
-    /* 252 */ u32 pc;
-    /* 256 */ u32 cause;
-    /* 260 */ u32 badvaddr;
-    /* 264 */ u32 rcp;
-    /* 268 */ u32 fpcsr;
-    /* 272 */ __OSfp fp0;
-    /* 280 */ __OSfp fp2;
-    /* 288 */ __OSfp fp4;
-    /* 296 */ __OSfp fp6;
-    /* 304 */ __OSfp fp8;
-    /* 312 */ __OSfp fp10;
-    /* 320 */ __OSfp fp12;
-    /* 328 */ __OSfp fp14;
-    /* 336 */ __OSfp fp16;
-    /* 344 */ __OSfp fp18;
-    /* 352 */ __OSfp fp20;
-    /* 360 */ __OSfp fp22;
-    /* 368 */ __OSfp fp24;
-    /* 376 */ __OSfp fp26;
-    /* 384 */ __OSfp fp28;
-    /* 392 */ __OSfp fp30;
+    /* 0x0 */ u64 at;
+    /* 0x8 */ u64 v0;
+    /* 0x10 */ u64 v1;
+    /* 0x18 */ u64 a0;
+    /* 0x20 */ u64 a1;
+    /* 0x28 */ u64 a2;
+    /* 0x30 */ u64 a3;
+    /* 0x38 */ u64 t0;
+    /* 0x40 */ u64 t1;
+    /* 0x48 */ u64 t2;
+    /* 0x50 */ u64 t3;
+    /* 0x58 */ u64 t4;
+    /* 0x60 */ u64 t5;
+    /* 0x68 */ u64 t6;
+    /* 0x70 */ u64 t7;
+    /* 0x78 */ u64 s0;
+    /* 0x80 */ u64 s1;
+    /* 0x88 */ u64 s2;
+    /* 0x90 */ u64 s3;
+    /* 0x98 */ u64 s4;
+    /* 0xA0 */ u64 s5;
+    /* 0xA8 */ u64 s6;
+    /* 0xB0 */ u64 s7;
+    /* 0xB8 */ u64 t8;
+    /* 0xC0 */ u64 t9;
+    /* 0xC8 */ u64 gp;
+    /* 0xD0 */ u64 sp;
+    /* 0xD8 */ u64 s8;
+    /* 0xE0 */ u64 ra;
+    /* 0xE8 */ u64 lo;
+    /* 0xF0 */ u64 hi;
+    /* 0xF8 */ u32 sr;
+    /* 0xFC */ u32 pc;
+    /* 0x100 */ u32 cause;
+    /* 0x104 */ u32 badvaddr;
+    /* 0x108 */ u32 rcp;
+    /* 0x10C */ u32 fpcsr;
+    /* 0x110 */ __OSfp fp0;
+    /* 0x118 */ __OSfp fp2;
+    /* 0x120 */ __OSfp fp4;
+    /* 0x128 */ __OSfp fp6;
+    /* 0x130 */ __OSfp fp8;
+    /* 0x138 */ __OSfp fp10;
+    /* 0x140 */ __OSfp fp12;
+    /* 0x148 */ __OSfp fp14;
+    /* 0x150 */ __OSfp fp16;
+    /* 0x158 */ __OSfp fp18;
+    /* 0x160 */ __OSfp fp20;
+    /* 0x168 */ __OSfp fp22;
+    /* 0x170 */ __OSfp fp24;
+    /* 0x178 */ __OSfp fp26;
+    /* 0x180 */ __OSfp fp28;
+    /* 0x188 */ __OSfp fp30;
 } __OSThreadContext;
 
 
 typedef struct {
-    /* 0 */ OSThread* next;
-    /* 4 */ OSPri priority;
-    /* 8 */ OSThread** queue;
-    /* 12 */ OSThread* tlnext;
-    /* 16 */ u16 state;
-    /* 18 */ u16 flags;
-    /* 20 */ OSId id;
-    /* 24 */ int fp;
-    /* 32 */ __OSThreadContext context;
+    /* 0x0 */ OSThread* next;
+    /* 0x4 */ OSPri priority;
+    /* 0x8 */ OSThread** queue;
+    /* 0xC */ OSThread* tlnext;
+    /* 0x10 */ u16 state;
+    /* 0x12 */ u16 flags;
+    /* 0x14 */ OSId id;
+    /* 0x18 */ int fp;
+    /* 0x20 */ __OSThreadContext context;
 } OSThread;
 
 typedef u32 OSEvent;
@@ -10276,134 +10276,134 @@ typedef void* OSMesg;
 
 
 typedef struct {
-    /* 0 */ OSThread* mtqueue;
-    /* 4 */ OSThread* fullqueue;
-    /* 8 */ s32 validCount;
-    /* 12 */ s32 first;
-    /* 16 */ s32 msgCount;
-    /* 20 */ OSMesg* msg;
+    /* 0x0 */ OSThread* mtqueue;
+    /* 0x4 */ OSThread* fullqueue;
+    /* 0x8 */ s32 validCount;
+    /* 0xC */ s32 first;
+    /* 0x10 */ s32 msgCount;
+    /* 0x14 */ OSMesg* msg;
 } OSMesgQueue;
 
 
 typedef struct {
-    /* 0 */ u16 type;
-    /* 2 */ u8 pri;
-    /* 3 */ u8 status;
-    /* 4 */ OSMesgQueue* retQueue;
+    /* 0x0 */ u16 type;
+    /* 0x2 */ u8 pri;
+    /* 0x3 */ u8 status;
+    /* 0x4 */ OSMesgQueue* retQueue;
 } OSIoMesgHdr;
 
 
 typedef struct {
-    /* 0 */ OSIoMesgHdr hdr;
-    /* 8 */ void* dramAddr;
-    /* 12 */ u32 devAddr;
-    /* 16 */ u32 size;
+    /* 0x0 */ OSIoMesgHdr hdr;
+    /* 0x8 */ void* dramAddr;
+    /* 0xC */ u32 devAddr;
+    /* 0x10 */ u32 size;
 } OSIoMesg;
 
 
 typedef struct {
-    /* 0 */ s32 active;
-    /* 4 */ OSThread* thread;
-    /* 8 */ OSMesgQueue* cmdQueue;
-    /* 12 */ OSMesgQueue* evtQueue;
-    /* 16 */ OSMesgQueue* acsQueue;
-    /* 20 */ s32 (*dma)(... /* ECOFF does not store param types */);
+    /* 0x0 */ s32 active;
+    /* 0x4 */ OSThread* thread;
+    /* 0x8 */ OSMesgQueue* cmdQueue;
+    /* 0xC */ OSMesgQueue* evtQueue;
+    /* 0x10 */ OSMesgQueue* acsQueue;
+    /* 0x14 */ s32 (*dma)(... /* ECOFF does not store param types */);
 } OSDevMgr;
 
 
 typedef struct {
-    /* 0 */ u32 ctrl;
-    /* 4 */ u32 width;
-    /* 8 */ u32 burst;
-    /* 12 */ u32 vSync;
-    /* 16 */ u32 hSync;
-    /* 20 */ u32 leap;
-    /* 24 */ u32 hStart;
-    /* 28 */ u32 xScale;
-    /* 32 */ u32 vCurrent;
+    /* 0x0 */ u32 ctrl;
+    /* 0x4 */ u32 width;
+    /* 0x8 */ u32 burst;
+    /* 0xC */ u32 vSync;
+    /* 0x10 */ u32 hSync;
+    /* 0x14 */ u32 leap;
+    /* 0x18 */ u32 hStart;
+    /* 0x1C */ u32 xScale;
+    /* 0x20 */ u32 vCurrent;
 } OSViCommonRegs;
 
 
 typedef struct {
-    /* 0 */ u32 origin;
-    /* 4 */ u32 yScale;
-    /* 8 */ u32 vStart;
-    /* 12 */ u32 vBurst;
-    /* 16 */ u32 vIntr;
+    /* 0x0 */ u32 origin;
+    /* 0x4 */ u32 yScale;
+    /* 0x8 */ u32 vStart;
+    /* 0xC */ u32 vBurst;
+    /* 0x10 */ u32 vIntr;
 } OSViFieldRegs;
 
 
 typedef struct {
-    /* 0 */ u8 type;
-    /* 4 */ OSViCommonRegs comRegs;
-    /* 40 */ OSViFieldRegs fldRegs[2];
+    /* 0x0 */ u8 type;
+    /* 0x4 */ OSViCommonRegs comRegs;
+    /* 0x28 */ OSViFieldRegs fldRegs[2];
 } OSViMode;
 
 typedef u64 OSTime;
 
 
 typedef struct {
-    /* 0 */ OSTimer* next;
-    /* 4 */ OSTimer* prev;
-    /* 8 */ OSTime interval;
-    /* 16 */ OSTime value;
-    /* 24 */ OSMesgQueue* mq;
-    /* 28 */ OSMesg msg;
+    /* 0x0 */ OSTimer* next;
+    /* 0x4 */ OSTimer* prev;
+    /* 0x8 */ OSTime interval;
+    /* 0x10 */ OSTime value;
+    /* 0x18 */ OSMesgQueue* mq;
+    /* 0x1C */ OSMesg msg;
 } OSTimer;
 
 
 typedef struct {
-    /* 0 */ u16 type;
-    /* 2 */ u8 status;
-    /* 3 */ u8 errno;
+    /* 0x0 */ u16 type;
+    /* 0x2 */ u8 status;
+    /* 0x3 */ u8 errno;
 } OSContStatus;
 
 
 typedef struct {
-    /* 0 */ u16 button;
-    /* 2 */ s8 stick_x;
-    /* 3 */ s8 stick_y;
-    /* 4 */ u8 errno;
+    /* 0x0 */ u16 button;
+    /* 0x2 */ s8 stick_x;
+    /* 0x3 */ s8 stick_y;
+    /* 0x4 */ u8 errno;
 } OSContPad;
 
 
 typedef struct {
-    /* 0 */ void* address;
-    /* 4 */ u8 databuffer[32];
-    /* 36 */ u8 addressCrc;
-    /* 37 */ u8 dataCrc;
-    /* 38 */ u8 errno;
+    /* 0x0 */ void* address;
+    /* 0x4 */ u8 databuffer[32];
+    /* 0x24 */ u8 addressCrc;
+    /* 0x25 */ u8 dataCrc;
+    /* 0x26 */ u8 errno;
 } OSContRamIo;
 
 
 typedef struct {
-    /* 0 */ int status;
-    /* 4 */ OSMesgQueue* queue;
-    /* 8 */ int channel;
-    /* 12 */ u8 id[32];
-    /* 44 */ u8 backup_id[32];
-    /* 76 */ u8 label[32];
-    /* 108 */ int pack_size;
-    /* 112 */ int version;
-    /* 116 */ int dir_size;
-    /* 120 */ int inode_start_page;
+    /* 0x0 */ int status;
+    /* 0x4 */ OSMesgQueue* queue;
+    /* 0x8 */ int channel;
+    /* 0xC */ u8 id[32];
+    /* 0x2C */ u8 backup_id[32];
+    /* 0x4C */ u8 label[32];
+    /* 0x6C */ int pack_size;
+    /* 0x70 */ int version;
+    /* 0x74 */ int dir_size;
+    /* 0x78 */ int inode_start_page;
 } OSPfs;
 
 
 typedef struct {
-    /* 0 */ u32 file_size;
-    /* 4 */ u16 company_code;
-    /* 6 */ u16 game_code;
-    /* 8 */ unsigned char ext_name[4];
-    /* 12 */ unsigned char game_name[16];
+    /* 0x0 */ u32 file_size;
+    /* 0x4 */ u16 company_code;
+    /* 0x6 */ u16 game_code;
+    /* 0x8 */ unsigned char ext_name[4];
+    /* 0xC */ unsigned char game_name[16];
 } OSPfsState;
 
 
 typedef struct {
-    /* 0 */ u16* histo_base;
-    /* 4 */ u32 histo_size;
-    /* 8 */ u32* text_start;
-    /* 12 */ u32* text_end;
+    /* 0x0 */ u16* histo_base;
+    /* 0x4 */ u32 histo_size;
+    /* 0x8 */ u32* text_start;
+    /* 0xC */ u32* text_end;
 } OSProf;
 
 // end file /f/release1/usr/include/PR/os.h

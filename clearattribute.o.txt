@@ -2002,385 +2002,385 @@ FileDescriptor(adr=0, rss=1, issBase=477, cbSs=1451, isymBase=8, csym=315, iline
 
 
 typedef struct {
-    /* 0 */ short ob[3];
-    /* 6 */ unsigned short flag;
-    /* 8 */ short tc[2];
-    /* 12 */ unsigned char cn[4];
+    /* 0x0 */ short ob[3];
+    /* 0x6 */ unsigned short flag;
+    /* 0x8 */ short tc[2];
+    /* 0xC */ unsigned char cn[4];
 } Vtx_t;
 
 
 typedef struct {
-    /* 0 */ short ob[3];
-    /* 6 */ unsigned short flag;
-    /* 8 */ short tc[2];
-    /* 12 */ signed char n[3];
-    /* 15 */ unsigned char a;
+    /* 0x0 */ short ob[3];
+    /* 0x6 */ unsigned short flag;
+    /* 0x8 */ short tc[2];
+    /* 0xC */ signed char n[3];
+    /* 0xF */ unsigned char a;
 } Vtx_tn;
 
 
 typedef union {
-    /* 0 */ Vtx_t v;
-    /* 0 */ Vtx_tn n;
-    /* 0 */ long long force_structure_alignment;
+    /* 0x0 */ Vtx_t v;
+    /* 0x0 */ Vtx_tn n;
+    /* 0x0 */ long long force_structure_alignment;
 } Vtx;
 
 
 typedef struct {
-    /* 0 */ unsigned char flag;
-    /* 1 */ unsigned char v[3];
+    /* 0x0 */ unsigned char flag;
+    /* 0x1 */ unsigned char v[3];
 } Tri;
 
 typedef long Mtx_t[4][4];
 
 
 typedef union {
-    /* 0 */ Mtx_t m;
-    /* 0 */ long long force_structure_alignment;
+    /* 0x0 */ Mtx_t m;
+    /* 0x0 */ long long force_structure_alignment;
 } Mtx;
 
 
 typedef struct {
-    /* 0 */ short vscale[4];
-    /* 8 */ short vtrans[4];
+    /* 0x0 */ short vscale[4];
+    /* 0x8 */ short vtrans[4];
 } Vp_t;
 
 
 typedef union {
-    /* 0 */ Vp_t vp;
-    /* 0 */ long long force_structure_alignment;
+    /* 0x0 */ Vp_t vp;
+    /* 0x0 */ long long force_structure_alignment;
 } Vp;
 
 
 typedef struct {
-    /* 0 */ unsigned char col[3];
-    /* 3 */ unsigned char pad1;
-    /* 4 */ unsigned char colc[3];
-    /* 7 */ unsigned char pad2;
-    /* 8 */ signed char dir[3];
-    /* 11 */ unsigned char pad3;
+    /* 0x0 */ unsigned char col[3];
+    /* 0x3 */ unsigned char pad1;
+    /* 0x4 */ unsigned char colc[3];
+    /* 0x7 */ unsigned char pad2;
+    /* 0x8 */ signed char dir[3];
+    /* 0xB */ unsigned char pad3;
 } Light_t;
 
 
 typedef struct {
-    /* 0 */ unsigned char col[3];
-    /* 3 */ unsigned char pad1;
-    /* 4 */ unsigned char colc[3];
-    /* 7 */ unsigned char pad2;
+    /* 0x0 */ unsigned char col[3];
+    /* 0x3 */ unsigned char pad1;
+    /* 0x4 */ unsigned char colc[3];
+    /* 0x7 */ unsigned char pad2;
 } Ambient_t;
 
 
 typedef struct {
-    /* 0 */ int x1;
-    /* 4 */ int y1;
-    /* 8 */ int x2;
-    /* 12 */ int y2;
+    /* 0x0 */ int x1;
+    /* 0x4 */ int y1;
+    /* 0x8 */ int x2;
+    /* 0xC */ int y2;
 } Hilite_t;
 
 
 typedef union {
-    /* 0 */ Light_t l;
-    /* 0 */ long long force_structure_alignment[2];
+    /* 0x0 */ Light_t l;
+    /* 0x0 */ long long force_structure_alignment[2];
 } Light;
 
 
 typedef union {
-    /* 0 */ Ambient_t l;
-    /* 0 */ long long force_structure_alignment[1];
+    /* 0x0 */ Ambient_t l;
+    /* 0x0 */ long long force_structure_alignment[1];
 } Ambient;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[7];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[7];
 } Lightsn;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[1];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[1];
 } Lights0;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[1];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[1];
 } Lights1;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[2];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[2];
 } Lights2;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[3];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[3];
 } Lights3;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[4];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[4];
 } Lights4;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[5];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[5];
 } Lights5;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[6];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[6];
 } Lights6;
 
 
 typedef struct {
-    /* 0 */ Ambient a;
-    /* 8 */ Light l[7];
+    /* 0x0 */ Ambient a;
+    /* 0x8 */ Light l[7];
 } Lights7;
 
 
 typedef struct {
-    /* 0 */ Light l[2];
+    /* 0x0 */ Light l[2];
 } LookAt;
 
 
 typedef union {
-    /* 0 */ Hilite_t h;
-    /* 0 */ long force_structure_alignment[4];
+    /* 0x0 */ Hilite_t h;
+    /* 0x0 */ long force_structure_alignment[4];
 } Hilite;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int par : 8;
-    /* 2 */ unsigned int len : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int par : 8;
+    /* 0x2 */ unsigned int len : 16;
+    /* 0x4 */ unsigned int addr;
 } Gdma;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad : 24;
-    /* 4 */ Tri tri;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad : 24;
+    /* 0x4 */ Tri tri;
 } Gtri;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad1 : 24;
-    /* 4 */ int pad2 : 24;
-    /* 7 */ unsigned char param : 8;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad1 : 24;
+    /* 0x4 */ int pad2 : 24;
+    /* 0x7 */ unsigned char param : 8;
 } Gpopmtx;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad0 : 8;
-    /* 2 */ int mw_index : 8;
-    /* 3 */ int number : 8;
-    /* 4 */ int pad1 : 8;
-    /* 5 */ int base : 24;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad0 : 8;
+    /* 0x2 */ int mw_index : 8;
+    /* 0x3 */ int number : 8;
+    /* 0x4 */ int pad1 : 8;
+    /* 0x5 */ int base : 24;
 } Gsegment;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad0 : 8;
-    /* 2 */ int sft : 8;
-    /* 3 */ int len : 8;
-    /* 4 */ unsigned int data : 32;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad0 : 8;
+    /* 0x2 */ int sft : 8;
+    /* 0x3 */ int len : 8;
+    /* 0x4 */ unsigned int data : 32;
 } GsetothermodeL;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad0 : 8;
-    /* 2 */ int sft : 8;
-    /* 3 */ int len : 8;
-    /* 4 */ unsigned int data : 32;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad0 : 8;
+    /* 0x2 */ int sft : 8;
+    /* 0x3 */ int len : 8;
+    /* 0x4 */ unsigned int data : 32;
 } GsetothermodeH;
 
 
 typedef struct {
-    /* 0 */ unsigned char cmd;
-    /* 1 */ unsigned char lodscale;
-    /* 2 */ unsigned char tile;
-    /* 3 */ unsigned char on;
-    /* 4 */ unsigned short s;
-    /* 6 */ unsigned short t;
+    /* 0x0 */ unsigned char cmd;
+    /* 0x1 */ unsigned char lodscale;
+    /* 0x2 */ unsigned char tile;
+    /* 0x3 */ unsigned char on;
+    /* 0x4 */ unsigned short s;
+    /* 0x6 */ unsigned short t;
 } Gtexture;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad : 24;
-    /* 4 */ Tri line;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad : 24;
+    /* 0x4 */ Tri line;
 } Gline3D;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int pad1 : 24;
-    /* 4 */ short pad2;
-    /* 6 */ short scale;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int pad1 : 24;
+    /* 0x4 */ short pad2;
+    /* 0x6 */ short scale;
 } Gperspnorm;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int fmt : 3;
-    /* 1 */ unsigned int siz : 2;
-    /* 1 */ unsigned int pad : 7;
-    /* 2 */ unsigned int wd : 12;
-    /* 4 */ unsigned int dram;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int fmt : 3;
+    /* 0x1 */ unsigned int siz : 2;
+    /* 0x1 */ unsigned int pad : 7;
+    /* 0x2 */ unsigned int wd : 12;
+    /* 0x4 */ unsigned int dram;
 } Gsetimg;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int muxs0 : 24;
-    /* 4 */ unsigned int muxs1 : 32;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int muxs0 : 24;
+    /* 0x4 */ unsigned int muxs1 : 32;
 } Gsetcombine;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned char pad;
-    /* 2 */ unsigned char prim_min_level;
-    /* 3 */ unsigned char prim_level;
-    /* 4 */ unsigned long color;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned char pad;
+    /* 0x2 */ unsigned char prim_min_level;
+    /* 0x3 */ unsigned char prim_level;
+    /* 0x4 */ unsigned long color;
 } Gsetcolor;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ int x0 : 10;
-    /* 2 */ int x0frac : 2;
-    /* 2 */ int y0 : 10;
-    /* 3 */ int y0frac : 2;
-    /* 4 */ unsigned int pad : 8;
-    /* 5 */ int x1 : 10;
-    /* 6 */ int x1frac : 2;
-    /* 6 */ int y1 : 10;
-    /* 7 */ int y1frac : 2;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ int x0 : 10;
+    /* 0x2 */ int x0frac : 2;
+    /* 0x2 */ int y0 : 10;
+    /* 0x3 */ int y0frac : 2;
+    /* 0x4 */ unsigned int pad : 8;
+    /* 0x5 */ int x1 : 10;
+    /* 0x6 */ int x1frac : 2;
+    /* 0x6 */ int y1 : 10;
+    /* 0x7 */ int y1frac : 2;
 } Gfillrect;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int fmt : 3;
-    /* 1 */ unsigned int siz : 2;
-    /* 1 */ unsigned int pad0 : 1;
-    /* 1 */ unsigned int line : 9;
-    /* 2 */ unsigned int tmem : 9;
-    /* 4 */ unsigned int pad1 : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int palette : 4;
-    /* 5 */ unsigned int ct : 1;
-    /* 5 */ unsigned int mt : 1;
-    /* 5 */ unsigned int maskt : 4;
-    /* 6 */ unsigned int shiftt : 4;
-    /* 6 */ unsigned int cs : 1;
-    /* 6 */ unsigned int ms : 1;
-    /* 7 */ unsigned int masks : 4;
-    /* 7 */ unsigned int shifts : 4;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int fmt : 3;
+    /* 0x1 */ unsigned int siz : 2;
+    /* 0x1 */ unsigned int pad0 : 1;
+    /* 0x1 */ unsigned int line : 9;
+    /* 0x2 */ unsigned int tmem : 9;
+    /* 0x4 */ unsigned int pad1 : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int palette : 4;
+    /* 0x5 */ unsigned int ct : 1;
+    /* 0x5 */ unsigned int mt : 1;
+    /* 0x5 */ unsigned int maskt : 4;
+    /* 0x6 */ unsigned int shiftt : 4;
+    /* 0x6 */ unsigned int cs : 1;
+    /* 0x6 */ unsigned int ms : 1;
+    /* 0x7 */ unsigned int masks : 4;
+    /* 0x7 */ unsigned int shifts : 4;
 } Gsettile;
 
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int sl : 12;
-    /* 2 */ unsigned int tl : 12;
-    /* 4 */ int pad : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int sh : 12;
-    /* 6 */ unsigned int th : 12;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int sl : 12;
+    /* 0x2 */ unsigned int tl : 12;
+    /* 0x4 */ int pad : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int sh : 12;
+    /* 0x6 */ unsigned int th : 12;
 } Gloadtile;
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int sl : 12;
-    /* 2 */ unsigned int tl : 12;
-    /* 4 */ int pad : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int sh : 12;
-    /* 6 */ unsigned int th : 12;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int sl : 12;
+    /* 0x2 */ unsigned int tl : 12;
+    /* 0x4 */ int pad : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int sh : 12;
+    /* 0x6 */ unsigned int th : 12;
 } Gloadblock;
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int sl : 12;
-    /* 2 */ unsigned int tl : 12;
-    /* 4 */ int pad : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int sh : 12;
-    /* 6 */ unsigned int th : 12;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int sl : 12;
+    /* 0x2 */ unsigned int tl : 12;
+    /* 0x4 */ int pad : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int sh : 12;
+    /* 0x6 */ unsigned int th : 12;
 } Gsettilesize;
 
 typedef struct {
-    /* 0 */ int cmd : 8;
-    /* 1 */ unsigned int sl : 12;
-    /* 2 */ unsigned int tl : 12;
-    /* 4 */ int pad : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int sh : 12;
-    /* 6 */ unsigned int th : 12;
+    /* 0x0 */ int cmd : 8;
+    /* 0x1 */ unsigned int sl : 12;
+    /* 0x2 */ unsigned int tl : 12;
+    /* 0x4 */ int pad : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int sh : 12;
+    /* 0x6 */ unsigned int th : 12;
 } Gloadtlut;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int xl : 12;
-    /* 2 */ unsigned int yl : 12;
-    /* 4 */ unsigned int pad1 : 5;
-    /* 4 */ unsigned int tile : 3;
-    /* 5 */ unsigned int xh : 12;
-    /* 6 */ unsigned int yh : 12;
-    /* 8 */ unsigned int s : 16;
-    /* 10 */ unsigned int t : 16;
-    /* 12 */ unsigned int dsdx : 16;
-    /* 14 */ unsigned int dtdy : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int xl : 12;
+    /* 0x2 */ unsigned int yl : 12;
+    /* 0x4 */ unsigned int pad1 : 5;
+    /* 0x4 */ unsigned int tile : 3;
+    /* 0x5 */ unsigned int xh : 12;
+    /* 0x6 */ unsigned int yh : 12;
+    /* 0x8 */ unsigned int s : 16;
+    /* 0xA */ unsigned int t : 16;
+    /* 0xC */ unsigned int dsdx : 16;
+    /* 0xE */ unsigned int dtdy : 16;
 } Gtexrect;
 
 
 typedef struct {
-    /* 0 */ unsigned long w0;
-    /* 4 */ unsigned long w1;
-    /* 8 */ unsigned long w2;
-    /* 12 */ unsigned long w3;
+    /* 0x0 */ unsigned long w0;
+    /* 0x4 */ unsigned long w1;
+    /* 0x8 */ unsigned long w2;
+    /* 0xC */ unsigned long w3;
 } TexRect;
 
 
 typedef struct {
-    /* 0 */ unsigned int w0;
-    /* 4 */ unsigned int w1;
+    /* 0x0 */ unsigned int w0;
+    /* 0x4 */ unsigned int w1;
 } Gwords;
 
 
 typedef union {
-    /* 0 */ Gwords words;
-    /* 0 */ Gdma dma;
-    /* 0 */ Gtri tri;
-    /* 0 */ Gline3D line;
-    /* 0 */ Gpopmtx popmtx;
-    /* 0 */ Gsegment segment;
-    /* 0 */ GsetothermodeH setothermodeH;
-    /* 0 */ GsetothermodeL setothermodeL;
-    /* 0 */ Gtexture texture;
-    /* 0 */ Gperspnorm perspnorm;
-    /* 0 */ Gsetimg setimg;
-    /* 0 */ Gsetcombine setcombine;
-    /* 0 */ Gsetcolor setcolor;
-    /* 0 */ Gfillrect fillrect;
-    /* 0 */ Gsettile settile;
-    /* 0 */ Gloadtile loadtile;
-    /* 0 */ Gloadtile settilesize;
-    /* 0 */ Gloadtile loadtlut;
-    /* 0 */ long long force_structure_alignment;
+    /* 0x0 */ Gwords words;
+    /* 0x0 */ Gdma dma;
+    /* 0x0 */ Gtri tri;
+    /* 0x0 */ Gline3D line;
+    /* 0x0 */ Gpopmtx popmtx;
+    /* 0x0 */ Gsegment segment;
+    /* 0x0 */ GsetothermodeH setothermodeH;
+    /* 0x0 */ GsetothermodeL setothermodeL;
+    /* 0x0 */ Gtexture texture;
+    /* 0x0 */ Gperspnorm perspnorm;
+    /* 0x0 */ Gsetimg setimg;
+    /* 0x0 */ Gsetcombine setcombine;
+    /* 0x0 */ Gsetcolor setcolor;
+    /* 0x0 */ Gfillrect fillrect;
+    /* 0x0 */ Gsettile settile;
+    /* 0x0 */ Gloadtile loadtile;
+    /* 0x0 */ Gloadtile settilesize;
+    /* 0x0 */ Gloadtile loadtlut;
+    /* 0x0 */ long long force_structure_alignment;
 } Gfx;
 
 // end file /f/release1/usr/include/PR/gbi.h
@@ -3389,180 +3389,180 @@ FileDescriptor(adr=0, rss=1, issBase=1928, cbSs=896, isymBase=323, csym=164, ili
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int gain : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int gain : 16;
+    /* 0x4 */ unsigned int addr;
 } Aadpcm;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int gain : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int gain : 16;
+    /* 0x4 */ unsigned int addr;
 } Apolef;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int pad1 : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int pad1 : 16;
+    /* 0x4 */ unsigned int addr;
 } Aenvelope;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 8;
-    /* 2 */ unsigned int dmem : 16;
-    /* 4 */ unsigned int pad2 : 16;
-    /* 6 */ unsigned int count : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 8;
+    /* 0x2 */ unsigned int dmem : 16;
+    /* 0x4 */ unsigned int pad2 : 16;
+    /* 0x6 */ unsigned int count : 16;
 } Aclearbuff;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 8;
-    /* 2 */ unsigned int pad2 : 16;
-    /* 4 */ unsigned int inL : 16;
-    /* 6 */ unsigned int inR : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 8;
+    /* 0x2 */ unsigned int pad2 : 16;
+    /* 0x4 */ unsigned int inL : 16;
+    /* 0x6 */ unsigned int inR : 16;
 } Ainterleave;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 24;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 24;
+    /* 0x4 */ unsigned int addr;
 } Aloadbuff;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int pad1 : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int pad1 : 16;
+    /* 0x4 */ unsigned int addr;
 } Aenvmixer;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int gain : 16;
-    /* 4 */ unsigned int dmemi : 16;
-    /* 6 */ unsigned int dmemo : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int gain : 16;
+    /* 0x4 */ unsigned int dmemi : 16;
+    /* 0x6 */ unsigned int dmemo : 16;
 } Amixer;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int dmem2 : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int dmem2 : 16;
+    /* 0x4 */ unsigned int addr;
 } Apan;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int pitch : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int pitch : 16;
+    /* 0x4 */ unsigned int addr;
 } Aresample;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int pad1 : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int pad1 : 16;
+    /* 0x4 */ unsigned int addr;
 } Areverb;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 24;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 24;
+    /* 0x4 */ unsigned int addr;
 } Asavebuff;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 24;
-    /* 4 */ unsigned int pad2 : 2;
-    /* 4 */ unsigned int number : 4;
-    /* 4 */ unsigned int base : 24;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 24;
+    /* 0x4 */ unsigned int pad2 : 2;
+    /* 0x4 */ unsigned int number : 4;
+    /* 0x4 */ unsigned int base : 24;
 } Asegment;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int dmemin : 16;
-    /* 4 */ unsigned int dmemout : 16;
-    /* 6 */ unsigned int count : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int dmemin : 16;
+    /* 0x4 */ unsigned int dmemout : 16;
+    /* 0x6 */ unsigned int count : 16;
 } Asetbuff;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int flags : 8;
-    /* 2 */ unsigned int vol : 16;
-    /* 4 */ unsigned int voltgt : 16;
-    /* 6 */ unsigned int volrate : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int flags : 8;
+    /* 0x2 */ unsigned int vol : 16;
+    /* 0x4 */ unsigned int voltgt : 16;
+    /* 0x6 */ unsigned int volrate : 16;
 } Asetvol;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 8;
-    /* 2 */ unsigned int dmemin : 16;
-    /* 4 */ unsigned int dmemout : 16;
-    /* 6 */ unsigned int count : 16;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 8;
+    /* 0x2 */ unsigned int dmemin : 16;
+    /* 0x4 */ unsigned int dmemout : 16;
+    /* 0x6 */ unsigned int count : 16;
 } Admemmove;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 8;
-    /* 2 */ unsigned int count : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 8;
+    /* 0x2 */ unsigned int count : 16;
+    /* 0x4 */ unsigned int addr;
 } Aloadadpcm;
 
 
 typedef struct {
-    /* 0 */ unsigned int cmd : 8;
-    /* 1 */ unsigned int pad1 : 8;
-    /* 2 */ unsigned int pad2 : 16;
-    /* 4 */ unsigned int addr;
+    /* 0x0 */ unsigned int cmd : 8;
+    /* 0x1 */ unsigned int pad1 : 8;
+    /* 0x2 */ unsigned int pad2 : 16;
+    /* 0x4 */ unsigned int addr;
 } Asetloop;
 
 
 typedef struct {
-    /* 0 */ unsigned int w0;
-    /* 4 */ unsigned int w1;
+    /* 0x0 */ unsigned int w0;
+    /* 0x4 */ unsigned int w1;
 } Awords;
 
 
 typedef union {
-    /* 0 */ Awords words;
-    /* 0 */ Aadpcm adpcm;
-    /* 0 */ Apolef polef;
-    /* 0 */ Aclearbuff clearbuff;
-    /* 0 */ Aenvelope envelope;
-    /* 0 */ Ainterleave interleave;
-    /* 0 */ Aloadbuff loadbuff;
-    /* 0 */ Aenvmixer envmixer;
-    /* 0 */ Aresample resample;
-    /* 0 */ Areverb reverb;
-    /* 0 */ Asavebuff savebuff;
-    /* 0 */ Asegment segment;
-    /* 0 */ Asetbuff setbuff;
-    /* 0 */ Asetvol setvol;
-    /* 0 */ Admemmove dmemmove;
-    /* 0 */ Aloadadpcm loadadpcm;
-    /* 0 */ Amixer mixer;
-    /* 0 */ Asetloop setloop;
-    /* 0 */ long long force_union_align;
+    /* 0x0 */ Awords words;
+    /* 0x0 */ Aadpcm adpcm;
+    /* 0x0 */ Apolef polef;
+    /* 0x0 */ Aclearbuff clearbuff;
+    /* 0x0 */ Aenvelope envelope;
+    /* 0x0 */ Ainterleave interleave;
+    /* 0x0 */ Aloadbuff loadbuff;
+    /* 0x0 */ Aenvmixer envmixer;
+    /* 0x0 */ Aresample resample;
+    /* 0x0 */ Areverb reverb;
+    /* 0x0 */ Asavebuff savebuff;
+    /* 0x0 */ Asegment segment;
+    /* 0x0 */ Asetbuff setbuff;
+    /* 0x0 */ Asetvol setvol;
+    /* 0x0 */ Admemmove dmemmove;
+    /* 0x0 */ Aloadadpcm loadadpcm;
+    /* 0x0 */ Amixer mixer;
+    /* 0x0 */ Asetloop setloop;
+    /* 0x0 */ long long force_union_align;
 } Acmd;
 
 typedef short ADPCM_STATE[16];
@@ -4092,47 +4092,47 @@ FileDescriptor(adr=0, rss=1, issBase=3013, cbSs=367, isymBase=507, csym=45, ilin
 
 
 typedef struct {
-    /* 0 */ s16 width;
-    /* 2 */ s16 width_img;
-    /* 4 */ s16 s;
-    /* 6 */ s16 t;
-    /* 8 */ void* buf;
-    /* 12 */ s16 actualHeight;
-    /* 14 */ s16 LUToffset;
+    /* 0x0 */ s16 width;
+    /* 0x2 */ s16 width_img;
+    /* 0x4 */ s16 s;
+    /* 0x6 */ s16 t;
+    /* 0x8 */ void* buf;
+    /* 0xC */ s16 actualHeight;
+    /* 0xE */ s16 LUToffset;
 } Bitmap;
 
 
 typedef struct {
-    /* 0 */ s16 x;
-    /* 2 */ s16 y;
-    /* 4 */ s16 width;
-    /* 6 */ s16 height;
-    /* 8 */ f32 scalex;
-    /* 12 */ f32 scaley;
-    /* 16 */ s16 expx;
-    /* 18 */ s16 expy;
-    /* 20 */ u16 attr;
-    /* 22 */ s16 zdepth;
-    /* 24 */ u8 red;
-    /* 25 */ u8 green;
-    /* 26 */ u8 blue;
-    /* 27 */ u8 alpha;
-    /* 28 */ s16 startTLUT;
-    /* 30 */ s16 nTLUT;
-    /* 32 */ int* LUT;
-    /* 36 */ s16 istart;
-    /* 38 */ s16 istep;
-    /* 40 */ s16 nbitmaps;
-    /* 42 */ s16 ndisplist;
-    /* 44 */ s16 bmheight;
-    /* 46 */ s16 bmHreal;
-    /* 48 */ u8 bmfmt;
-    /* 49 */ u8 bmsiz;
-    /* 52 */ Bitmap* bitmap;
-    /* 56 */ Gfx* rsp_dl;
-    /* 60 */ Gfx* rsp_dl_next;
-    /* 64 */ s16 frac_s;
-    /* 66 */ s16 frac_t;
+    /* 0x0 */ s16 x;
+    /* 0x2 */ s16 y;
+    /* 0x4 */ s16 width;
+    /* 0x6 */ s16 height;
+    /* 0x8 */ f32 scalex;
+    /* 0xC */ f32 scaley;
+    /* 0x10 */ s16 expx;
+    /* 0x12 */ s16 expy;
+    /* 0x14 */ u16 attr;
+    /* 0x16 */ s16 zdepth;
+    /* 0x18 */ u8 red;
+    /* 0x19 */ u8 green;
+    /* 0x1A */ u8 blue;
+    /* 0x1B */ u8 alpha;
+    /* 0x1C */ s16 startTLUT;
+    /* 0x1E */ s16 nTLUT;
+    /* 0x20 */ int* LUT;
+    /* 0x24 */ s16 istart;
+    /* 0x26 */ s16 istep;
+    /* 0x28 */ s16 nbitmaps;
+    /* 0x2A */ s16 ndisplist;
+    /* 0x2C */ s16 bmheight;
+    /* 0x2E */ s16 bmHreal;
+    /* 0x30 */ u8 bmfmt;
+    /* 0x31 */ u8 bmsiz;
+    /* 0x34 */ Bitmap* bitmap;
+    /* 0x38 */ Gfx* rsp_dl;
+    /* 0x3C */ Gfx* rsp_dl_next;
+    /* 0x40 */ s16 frac_s;
+    /* 0x42 */ s16 frac_t;
 } Sprite;
 
 // end file /f/release1/usr/include/PR/sp.h

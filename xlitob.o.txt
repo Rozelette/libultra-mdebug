@@ -316,20 +316,20 @@ FileDescriptor(adr=0, rss=1, issBase=694, cbSs=170, isymBase=28, csym=20, ilineB
 
 
 typedef struct {
-    /* 0 */ int quot;
-    /* 4 */ int rem;
+    /* 0x0 */ int quot;
+    /* 0x4 */ int rem;
 } div_t;
 
 
 typedef struct {
-    /* 0 */ long quot;
-    /* 4 */ long rem;
+    /* 0x0 */ long quot;
+    /* 0x4 */ long rem;
 } ldiv_t;
 
 
 typedef struct {
-    /* 0 */ long long quot;
-    /* 8 */ long long rem;
+    /* 0x0 */ long long quot;
+    /* 0x8 */ long long rem;
 } lldiv_t;
 
 typedef unsigned int size_t;
@@ -553,22 +553,22 @@ typedef double ldouble;
 
 
 typedef struct {
-    /* 0 */ union {
-        /* 0 */ long long ll;
-        /* 0 */ ldouble ld;
+    /* 0x0 */ union {
+        /* 0x0 */ long long ll;
+        /* 0x0 */ ldouble ld;
     } v;
-    /* 8 */ unsigned char* s;
-    /* 12 */ int n0;
-    /* 16 */ int nz0;
-    /* 20 */ int n1;
-    /* 24 */ int nz1;
-    /* 28 */ int n2;
-    /* 32 */ int nz2;
-    /* 36 */ int prec;
-    /* 40 */ int width;
-    /* 44 */ size_t nchar;
-    /* 48 */ unsigned int flags;
-    /* 52 */ unsigned char qual;
+    /* 0x8 */ unsigned char* s;
+    /* 0xC */ int n0;
+    /* 0x10 */ int nz0;
+    /* 0x14 */ int n1;
+    /* 0x18 */ int nz1;
+    /* 0x1C */ int n2;
+    /* 0x20 */ int nz2;
+    /* 0x24 */ int prec;
+    /* 0x28 */ int width;
+    /* 0x2C */ size_t nchar;
+    /* 0x30 */ unsigned int flags;
+    /* 0x34 */ unsigned char qual;
 } _Pft;
 
 // end file ../rmon/xstdio.h
