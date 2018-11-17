@@ -274,13 +274,13 @@ FileDescriptor(adr=0, rss=1, issBase=0, cbSs=683, isymBase=0, csym=60, ilineBase
     pretty print:
 // begin file ../os/exceptasm.s
 
-// static __osIntOffTable; - Load time only
+static __osIntOffTable;
 
-// static __osIntTable; - Load time only
+static __osIntTable;
 
-// static __osIsRdbWrite; - Load time only
+static __osIsRdbWrite;
 
-// static __osIsRdbRead; - Load time only
+static __osIsRdbRead;
 
 nil __osExceptionPreamble();
 

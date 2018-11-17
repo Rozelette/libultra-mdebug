@@ -99,15 +99,15 @@ FileDescriptor(adr=0, rss=1, issBase=0, cbSs=455, isymBase=0, csym=20, ilineBase
     pretty print:
 // begin file ../gu/sinf.c
 
-// static P; - Load time only
+static const du P[5];
 
-// static rpi; - Load time only
+static const du rpi;
 
-// static pihi; - Load time only
+static const du pihi;
 
-// static pilo; - Load time only
+static const du pilo;
 
-// static zero; - Load time only
+static const fu zero;
 
 float __sinf(float x);
 //{

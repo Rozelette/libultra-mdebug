@@ -104,15 +104,15 @@ FileDescriptor(adr=0, rss=1, issBase=0, cbSs=460, isymBase=0, csym=21, ilineBase
     pretty print:
 // begin file ../gu/cosf.c
 
-// static P; - Load time only
+static const du P[5];
 
-// static rpi; - Load time only
+static const du rpi;
 
-// static pihi; - Load time only
+static const du pihi;
 
-// static pilo; - Load time only
+static const du pilo;
 
-// static zero; - Load time only
+static const fu zero;
 
 float __cosf(float x);
 //{

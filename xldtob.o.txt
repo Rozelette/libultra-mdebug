@@ -292,7 +292,7 @@ FileDescriptor(adr=0, rss=1, issBase=0, cbSs=587, isymBase=0, csym=57, ilineBase
     pretty print:
 // begin file ../rmon/xldtob.c
 
-// static pows; - Load time only
+static const ldouble pows[9];
 
 void _Ldtob(_Pft* px, unsigned char code);
 //{
